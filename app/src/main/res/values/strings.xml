@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ImmiGreat</string>
+    <string name="welcomeStr">Welcome!</string>
+    <string name="menuButton1Str">Public Transportation</string>
+    <string name="menuButton2Str">Laws</string>
+    <string name="menuButton3Str">Something???</string>
 </resources>
