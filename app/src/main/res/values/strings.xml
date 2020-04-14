@@ -4,4 +4,10 @@
     <string name="menuButton1Str">Public Transportation</string>
     <string name="menuButton2Str">Laws</string>
     <string name="menuButton3Str">Something???</string>
+    <string name="lawsHeadingStr">Laws</string>
+    <string name="lawsEducationHeadingStr">Education</string>
+    <string name="lawsDrivingHeadingStr">Driving</string>
+    <string name="lawsDrivingApplyingLicenseHeading">Applying for a license</string>
+    <string name="lawsDrivingForeignPolicyHeading">Foreign Policy</string>
+    <string name="lawsDiscriminationHeading">Antidiscrimination</string>
 </resources>
