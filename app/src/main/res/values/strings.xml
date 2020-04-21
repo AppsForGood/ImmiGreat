@@ -11,4 +11,7 @@
     <string name="lawsDrivingForeignPolicyHeading">Foreign Policy</string>
     <string name="lawsDiscriminationHeading">Antidiscrimination</string>
     <string name="educationPageContentStr">education is gud 4 u</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

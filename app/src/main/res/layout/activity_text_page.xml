@@ -49,6 +49,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <FrameLayout
+            android:id="@+id/textPageContentFragmentPlace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
         <TextView
             android:id="@+id/textPageContent"
             android:layout_width="match_parent"

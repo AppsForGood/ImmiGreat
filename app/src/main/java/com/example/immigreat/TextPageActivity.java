@@ -1,6 +1,9 @@
 package com.example.immigreat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,17 +22,32 @@ public class TextPageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_text_page);
 
         Intent intent = getIntent();
+        String headingText = intent.getStringExtra("HEADING");
+        String subheadingText = intent.getStringExtra("SUBHEADING");
 
-        TextView content = (TextView) findViewById(R.id.textPageContent);
-        content.setText(intent.getStringExtra("CONTENT"));
+//        TextView content = (TextView) findViewById(R.id.textPageContent);
+//        content.setText(intent.getStringExtra("CONTENT"));
 
         TextView heading  = (TextView) findViewById(R.id.textPageHeading);
-        heading.setText(intent.getStringExtra("HEADING"));
+        heading.setText(headingText);
 
         TextView subheading = (TextView) findViewById(R.id.textPageSubheading);
-        subheading.setText(intent.getStringExtra("SUBHEADING"));
+        subheading.setText(subheadingText);
+
+        Fragment fragment = getContentFragment(headingText, subheadingText);
+
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.textPageContentFragmentPlace, fragment);
+        ft.commit();
     }
 
+    Fragment getContentFragment(String headingText, String subheadingText) {
+        if(headingText.equals("Laws") && subheadingText.equals("Education")){
+            return new LawsEducationFragment();
+        }
+        return new BlankFragment();
+    }
     @Override
     protected void onStop() {
         super.onStop();
