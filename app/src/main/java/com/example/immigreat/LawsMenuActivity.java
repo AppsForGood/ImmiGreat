@@ -63,4 +63,10 @@ public class LawsMenuActivity extends AppCompatActivity {
         performStartPage(v, heading, subheading);
     }
 
+    public void performStartApplyingPage(View v) {
+        String subheading = "Applying for a Class D License";
+        String heading = "Laws";
+        performStartPage(v, heading, subheading);
+    }
+
 }
