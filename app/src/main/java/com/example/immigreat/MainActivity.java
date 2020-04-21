@@ -82,6 +82,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //Kim's update
+
     //Sri's update
 }
