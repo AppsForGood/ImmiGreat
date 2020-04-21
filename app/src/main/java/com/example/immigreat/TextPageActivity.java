@@ -50,8 +50,8 @@ public class TextPageActivity extends AppCompatActivity {
             else if(subheadingText.equals("Driving")){
                 return new LawsDrivingFragment();
             }
-            else if(subheadingText.equals("Healthcare")){
-                return new LawsHealthcareFragment();
+            else if(subheadingText.equals("Applying for a Class D License")){
+                return new LawsDrivingFragment();
             }
         }
         return new BlankFragment();
