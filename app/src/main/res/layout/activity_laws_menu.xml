@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:onClick="performStartApplyingPage"
-            android:text="@string/lawsDrivingApplyingLicenseHeading" />
+            android:text="@string/lawsDrivingApplyingLicenseHeadingStr" />
 
         <Button
             android:id="@+id/lawsDrivingForeignPolicyHeading"
