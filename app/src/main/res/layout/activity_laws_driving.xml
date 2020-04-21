@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LawsMenuActivity">
+    tools:context=".LawsDrivingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,12 +12,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/lawsMenuPageHeading"
+            android:id="@+id/lawsDrivingMenuPageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/lawsHeadingStr"
+            android:text="@string/lawsDrivingHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,28 +36,17 @@
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
         <Button
-            android:id="@+id/lawsEducationHeading"
+            android:id="@+id/lawsDrivingApplyingLicenseHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartEducationPage"
-            android:text="@string/lawsEducationHeadingStr"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
+            android:onClick="performStartApplyingPage"
+            android:text="@string/lawsDrivingApplyingLicenseHeadingStr" />
 
         <Button
-            android:id="@+id/lawsDrivingHeading"
+            android:id="@+id/lawsDrivingForeignPolicyHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartDrivingPage"
-            android:text="@string/lawsDrivingHeadingStr" />
+            android:text="@string/lawsDrivingForeignPolicyHeadingStr" />
 
-        <Button
-            android:id="@+id/lawsDiscriminationHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/lawsDiscriminationHeading" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

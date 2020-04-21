@@ -1,17 +1,28 @@
 <resources>
+
+    <!-- Headings/Button Labels -->
     <string name="app_name">ImmiGreat</string>
     <string name="welcomeStr">Welcome!</string>
     <string name="menuButton1Str">Public Transportation</string>
     <string name="menuButton2Str">Laws</string>
     <string name="menuButton3Str">Something???</string>
+
     <string name="lawsHeadingStr">Laws</string>
     <string name="lawsEducationHeadingStr">Education</string>
     <string name="lawsDrivingHeadingStr">Driving</string>
-    <string name="lawsDrivingApplyingLicenseHeadingStr">Applying for a Class D License</string>
-    <string name="lawsDrivingForeignPolicyHeading">Foreign Policy</string>
+    <string name="lawsDrivingApplyingLicenseHeadingStr">Applying for a License</string>
+    <string name="lawsDrivingForeignPolicyHeadingStr">Foreign Policy</string>
     <string name="lawsDiscriminationHeading">Antidiscrimination</string>
-    <string name="educationPageContentStr">education is gud 4 u</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transportationHeadingStr">Transportation</string>
+    <string name="transportationOverviewHeadingStr">Overview</string>
+    <string name="transportationStayingLocalHeadingStr">Staying Local</string>
+    <string name="transportationSubwayHeadingStr">Subway</string>
+
+    <!-- Page Content -->
+    <string name="lawsEducationPageContentStr">Education page content</string>
+    <string name="lawsDrivingApplyingPageContentStr">Applying for a license can be done as follows...</string>
+
+    <string name="error404PageContentStr">Sorry, this page could not be found.</string>
+
 </resources>

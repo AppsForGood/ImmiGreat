@@ -1,9 +1,6 @@
 package com.example.immigreat;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -43,7 +40,7 @@ public class LawsMenuActivity extends AppCompatActivity {
 //        performStartPage(v, content, heading, subheading);
 //    }
 
-    public void performStartPage(View v, String heading, String subheading) {
+    public void performStartTextPage(View v, String heading, String subheading) {
         Intent intent = new Intent(this, TextPageActivity.class);
         intent.putExtra("HEADING", heading);
         intent.putExtra("SUBHEADING", subheading);
@@ -54,19 +51,18 @@ public class LawsMenuActivity extends AppCompatActivity {
     public void performStartEducationPage(View v) {
         String subheading = getResources().getString(R.string.lawsEducationHeadingStr);
         String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartPage(v, heading, subheading);
+        performStartTextPage(v, heading, subheading);
     }
 
     public void performStartDrivingPage(View v) {
-        String subheading = getResources().getString(R.string.lawsDrivingHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartPage(v, heading, subheading);
+        Intent intent = new Intent(this, LawsDrivingActivity.class);
+        startActivity(intent);
     }
 
     public void performStartApplyingPage(View v) {
         String subheading = getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr);
         String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartPage(v, heading, subheading);
+        performStartTextPage(v, heading, subheading);
     }
 
 }
