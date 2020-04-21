@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link LawsApplying#newInstance} factory method to
+ * Use the {@link LawsApplyingFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class LawsApplying extends Fragment {
+public class LawsApplyingFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +24,7 @@ public class LawsApplying extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public LawsApplying() {
+    public LawsApplyingFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +37,8 @@ public class LawsApplying extends Fragment {
      * @return A new instance of fragment LawsApplying.
      */
     // TODO: Rename and change types and number of parameters
-    public static LawsApplying newInstance(String param1, String param2) {
-        LawsApplying fragment = new LawsApplying();
+    public static LawsApplyingFragment newInstance(String param1, String param2) {
+        LawsApplyingFragment fragment = new LawsApplyingFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

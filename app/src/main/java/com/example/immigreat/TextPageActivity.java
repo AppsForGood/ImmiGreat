@@ -43,21 +43,18 @@ public class TextPageActivity extends AppCompatActivity {
     }
 
     Fragment getContentFragment(String headingText, String subheadingText) {
-        if(headingText.equals("Laws")) {
-            if (subheadingText.equals("Education")) {
+        if(headingText.equals(getResources().getString(R.string.lawsHeadingStr))) {
+            if (subheadingText.equals(getResources().getString(R.string.lawsEducationHeadingStr))) {
                 return new LawsEducationFragment();
             }
-            else if(subheadingText.equals("Driving")){
-                return new LawsDrivingFragment();
-            }
-            else if(subheadingText.equals("Applying for a Class D License")){
-                return new LawsDrivingFragment();
+            else if(subheadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
+                return new LawsApplyingFragment();
             }
             else if(subheadingText.equals("Healthcare")){
                 return new LawsHealthcareFragment();
             }
         }
-        return new BlankFragment();
+        return new Error404Fragment();
     }
     @Override
     protected void onStop() {
