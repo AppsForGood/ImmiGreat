@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "onRestoreInstanceState");
     }
 
+    /**
+     * TODO write this comment
+     * @param v
+     */
+
     public void performStartMenu(View v) {
         Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);

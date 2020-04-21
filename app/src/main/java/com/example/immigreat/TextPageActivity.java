@@ -43,8 +43,13 @@ public class TextPageActivity extends AppCompatActivity {
     }
 
     Fragment getContentFragment(String headingText, String subheadingText) {
-        if(headingText.equals("Laws") && subheadingText.equals("Education")){
-            return new LawsEducationFragment();
+        if(headingText.equals("Laws")) {
+            if (subheadingText.equals("Education")) {
+                return new LawsEducationFragment();
+            }
+            else if(subheadingText.equals("Driving")){
+                return new LawsDrivingFragment();
+            }
         }
         return new BlankFragment();
     }

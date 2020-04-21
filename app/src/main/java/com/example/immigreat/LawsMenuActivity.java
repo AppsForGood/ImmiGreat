@@ -54,7 +54,13 @@ public class LawsMenuActivity extends AppCompatActivity {
     public void performStartEducationPage(View v) {
         String subheading = getResources().getString(R.string.lawsEducationHeadingStr);
         String heading = getResources().getString(R.string.lawsHeadingStr);
-
         performStartPage(v, heading, subheading);
     }
+
+    public void performStartDrivingPage(View v) {
+        String subheading = getResources().getString(R.string.lawsDrivingHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartPage(v, heading, subheading);
+    }
+
 }

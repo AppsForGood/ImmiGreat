@@ -14,6 +14,11 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
 
+    /**
+     * TODO write this comment
+     * @param v
+     */
+
     public void performStartLawsMenu(View v) {
         Intent intent = new Intent(this, LawsMenuActivity.class);
         startActivity(intent);
