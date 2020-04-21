@@ -64,8 +64,8 @@ public class LawsMenuActivity extends AppCompatActivity {
     }
 
     public void performStartApplyingPage(View v) {
-        String subheading = "Applying for a Class D License";
-        String heading = "Laws";
+        String subheading = getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
         performStartPage(v, heading, subheading);
     }
 
