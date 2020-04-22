@@ -23,7 +23,7 @@ public class TextPageActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String headingText = intent.getStringExtra("HEADING");
-        String subheadingText = intent.getStringExtra("SUBHEADING");
+        String subHeadingText = intent.getStringExtra("SUBHEADING");
 
 //        TextView content = (TextView) findViewById(R.id.textPageContent);
 //        content.setText(intent.getStringExtra("CONTENT"));
@@ -32,9 +32,9 @@ public class TextPageActivity extends AppCompatActivity {
         heading.setText(headingText);
 
         TextView subheading = (TextView) findViewById(R.id.textPageSubheading);
-        subheading.setText(subheadingText);
+        subheading.setText(subHeadingText);
 
-        Fragment fragment = getContentFragment(headingText, subheadingText);
+        Fragment fragment = getContentFragment(headingText, subHeadingText);
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
@@ -42,15 +42,15 @@ public class TextPageActivity extends AppCompatActivity {
         ft.commit();
     }
 
-    Fragment getContentFragment(String headingText, String subheadingText) {
+    Fragment getContentFragment(String headingText, String subHeadingText) {
         if(headingText.equals(getResources().getString(R.string.lawsHeadingStr))) {
-            if (subheadingText.equals(getResources().getString(R.string.lawsEducationHeadingStr))) {
+            if (subHeadingText.equals(getResources().getString(R.string.lawsEducationHeadingStr))) {
                 return new LawsEducationFragment();
             }
-            else if(subheadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
                 return new LawsApplyingFragment();
             }
-            else if(subheadingText.equals("Healthcare")){
+            else if(subHeadingText.equals(subHeadingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr)))){
                 return new LawsHealthcareFragment();
             }
         }

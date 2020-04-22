@@ -14,18 +14,18 @@ public class LawsDrivingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_laws_driving);
     }
 
-    public void performStartPage(View v, String heading, String subheading) {
+    public void performStartPage(View v, String heading, String subHeading) {
         Intent intent = new Intent(this, TextPageActivity.class);
         intent.putExtra("HEADING", heading);
-        intent.putExtra("SUBHEADING", subheading);
+        intent.putExtra("SUBHEADING", subHeading);
 
         startActivity(intent);
     }
 
     public void performStartApplyingPage(View v) {
-        String subheading = getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr);
+        String subHeading = getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr);
         String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartPage(v, heading, subheading);
+        performStartPage(v, heading, subHeading);
     }
 
 }
