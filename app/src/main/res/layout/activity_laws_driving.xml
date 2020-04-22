@@ -48,5 +48,17 @@
             android:layout_height="wrap_content"
             android:text="@string/lawsDrivingForeignPolicyHeadingStr" />
 
+        <Button
+            android:id="@+id/lawsDrivingJOLHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lawsDrivingJOLHeadingStr" />
+
+        <Button
+            android:id="@+id/lawsDrivingCellPhoneHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lawsDrivingCellPhoneHeadingStr" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
