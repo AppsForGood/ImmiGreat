@@ -9,6 +9,7 @@
 
     <!--Headings-->
     <string name="lawsHeadingStr">Laws</string>
+    <string name="transportationHeadingStr">Transportation</string>
 
     <!--Button labels and subheadings-->
     <string name="lawsEducationHeadingStr">Education</string>
@@ -17,9 +18,14 @@
     <string name="lawsDrivingForeignPolicyHeadingStr">Foreign Policy</string>
     <string name="lawsDiscriminationHeadingStr">Antidiscrimination</string>
     <string name="lawsHealthcareHeadingStr">Healthcare</string>
+    <string name="lawsPublicChargeHeadingStr">Public Charge</string>
+    <string name="transportationOverviewHeadingStr">Overview</string>
+    <string name="transportationStayingLocalHeadingStr">Staying Local?</string>
 
     <!--Content strings-->
-    <string name="educationPageContentStr">education is gud 4 u</string>
+    <string name="lawsEducationPageContentStr">**filler text**</string>
+    <string name="error404PageContentStr">ERROR</string>
+    <string name="lawsDrivingApplyingPageContentStr">**filler text**</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

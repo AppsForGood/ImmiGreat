@@ -50,8 +50,19 @@ public class TextPageActivity extends AppCompatActivity {
             else if(subHeadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
                 return new LawsApplyingFragment();
             }
-            else if(subHeadingText.equals(subHeadingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr)))){
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr))){
                 return new LawsHealthcareFragment();
+            }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
+                return new LawsPublicChargeFragment();
+            }
+        }
+        if(headingText.equals(getResources().getString(R.string.transportationHeadingStr))) {
+            if(subHeadingText.equals(getResources().getString(R.string.transportationOverviewHeadingStr))){
+                return new TransportationOverviewFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalHeadingStr))){
+                return new TransportationStayingLocalFragment();
             }
         }
         return new Error404Fragment();
