@@ -69,4 +69,10 @@ public class LawsMenuActivity extends AppCompatActivity {
         performStartPage(v, heading, subheading);
     }
 
+    public void performStartForeignPolicyPage(View v) {
+        String subheading = getResources().getString(R.string.lawsDrivingForeignPolicyHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartPage(v, heading, subheading);
+    }
+
 }
