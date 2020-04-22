@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".TransportationMenuActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-143dp">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textPageHeading"
+            android:id="@+id/transportationMenuPageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
+            android:text="@string/lawsHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,30 +35,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
-        <TextView
-            android:id="@+id/textPageSubheading"
+        <Button
+            android:id="@+id/lawsEducationHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            android:text="@string/transportationOverviewHeadingStr"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
-        <FrameLayout
-            android:id="@+id/textPageContentFragmentPlace"
+        <Button
+            android:id="@+id/lawsDrivingHeading"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </FrameLayout>
-
-        <TextView
-            android:id="@+id/textPageContent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/transportationStayingLocalHeadingStr" />
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

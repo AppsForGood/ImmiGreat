@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".LawsDrivingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-143dp">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textPageHeading"
+            android:id="@+id/lawsDrivingMenuPageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
+            android:text="@string/lawsDrivingHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,30 +35,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
-        <TextView
-            android:id="@+id/textPageSubheading"
+        <Button
+            android:id="@+id/lawsDrivingApplyingLicenseHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:onClick="performStartApplyingPage"
+            android:text="@string/lawsDrivingApplyingLicenseHeadingStr" />
 
-        <FrameLayout
-            android:id="@+id/textPageContentFragmentPlace"
+        <Button
+            android:id="@+id/lawsDrivingForeignPolicyHeading"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </FrameLayout>
-
-        <TextView
-            android:id="@+id/textPageContent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/lawsDrivingForeignPolicyHeadingStr" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,15 +1,24 @@
 <resources>
     <string name="app_name">ImmiGreat</string>
     <string name="welcomeStr">Welcome!</string>
+
+    //Big buttons on main menu
     <string name="menuButton1Str">Public Transportation</string>
     <string name="menuButton2Str">Laws</string>
     <string name="menuButton3Str">Something???</string>
+
+    //Headings
     <string name="lawsHeadingStr">Laws</string>
+
+    //Button labels and subheadings
     <string name="lawsEducationHeadingStr">Education</string>
     <string name="lawsDrivingHeadingStr">Driving</string>
     <string name="lawsDrivingApplyingLicenseHeadingStr">Applying for a Class D License</string>
     <string name="lawsDrivingForeignPolicyHeadingStr">Foreign Policy</string>
     <string name="lawsDiscriminationHeading">Antidiscrimination</string>
+    <string name="lawsHealthcareHeadingStr">Healthcare</string>
+
+    //Content stings
     <string name="educationPageContentStr">education is gud 4 u</string>
 
     <!-- TODO: Remove or change this placeholder text -->
