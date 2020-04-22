@@ -28,4 +28,9 @@ public class LawsDrivingActivity extends AppCompatActivity {
         performStartPage(v, heading, subHeading);
     }
 
+    public void performStartForeignPolicyPage(View v) {
+        String subHeading = getResources().getString(R.string.lawsDrivingForeignPolicyHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartPage(v, heading, subHeading);
+    }
 }
