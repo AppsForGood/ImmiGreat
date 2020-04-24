@@ -53,6 +53,9 @@ public class TextPageActivity extends AppCompatActivity {
             else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr))){
                 return new LawsHealthcareFragment();
             }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageFactsheetsStr))){
+                return new LawsHealthcareFactsheetsFragment();
+            }
             else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
                 return new LawsPublicChargeFragment();
             }
@@ -67,6 +70,7 @@ public class TextPageActivity extends AppCompatActivity {
         }
         return new Error404Fragment();
     }
+
     @Override
     protected void onStop() {
         super.onStop();

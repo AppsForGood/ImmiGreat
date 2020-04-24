@@ -6,9 +6,35 @@
     tools:context=".LawsPublicChargeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lawsPublicChargeOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lawsPublicChargePageOverviewStr"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/lawsPublicChargeOtherInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lawsPublicChargePageOtherInformationStr" />
+
+            <Button
+                android:id="@+id/lawsPublicChargeFactsheets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lawsPublicChargePageFactsheetsStr" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
