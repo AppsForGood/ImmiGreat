@@ -33,7 +33,30 @@
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
     <string name="lawsEducationPageContentStr">**filler text**</string>
-    <string name="lawsDrivingApplyingPageContentStr">**filler text**</string>
+    <string name="lawsDrivingApplyingPageContentStr">1. Required documents: proof of U.S. citizenship
+        or lawful presence, Social Security number, and Massachusetts residency. \n\t a. Original documents,
+        no photocopies or laminated documents \n\t b. One document cannot be used to prove more than one
+        requirement \n\t c. Lawful presence: legally living in the U.S. according to federal immigration
+        laws \n\t\t i. Non-U.S. citizens who are working, studying, or living temporarily in the U.S.
+        might have temporary lawful presence that varies in length \n\t\t ii. For U.S. citizens: valid,
+        unexpired U.S. passport or certified copy of U.S. birth certificate \n\t\t iii. For permanent
+        residents: valid permanent resident card (green card) iv. For non-U.S. citizens: valid verifiable
+        immigration documents and proof of grant of a legal stay in the U.S. for at least 12 months
+        \n\t d. Social Security Number (SSN): must have a valid SSN (9 digit number) to apply for any
+        learner’s permit, driver’s license, or ID card, bring one of the following: \n\t\t i. SSN card
+        (not laminated) \n\t\t ii. W-2 Form \n\t\t iii. SSA 1099 Form \n\t\t iv. Pay stub \n\t e.
+        Massachusetts residency documents: document showing current residential address(2 of the
+        following documents for a Real ID, 1 for Standard driver's license) \n\t\t i. Massachusetts
+        RMV-issued documents \n\t\t ii. State/federal/municipal/city/town/country agency-issued documents
+        \n\t\t iii. Bills \n\t\t iv. Lease/Mortgage documents \n\t\t vi. Financial related document
+        \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can be used to fly within the
+        United States or enter federal buildings \n 3. Can start application online or start application
+        at the RMV - https://atlas-myrmv.massdot.state.ma.us/myrmv/_/ </string>
+    <string name="lawsDrivingForeignPolicyPageContentStr">**filler text**</string>
+    <string name="lawsDrivingJOLPageContentStr">**filler text**</string>
+    <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by
+        drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
+        are required to use Bluetooth or another hands-free technology tool.</string>
     <string name="lawsHealthcarePageOverviewStr">All people in Massachusetts, regardless of
         immigration status, have access to some sort of healthcare. For more information on the
         different forms of healthcare and what forms you are eligible for, see below:
