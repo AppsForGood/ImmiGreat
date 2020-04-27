@@ -33,4 +33,15 @@ public class LawsDrivingActivity extends AppCompatActivity {
         String heading = getResources().getString(R.string.lawsHeadingStr);
         performStartPage(v, heading, subHeading);
     }
+
+    public void performStartJOLPage(View v) {
+        String subHeading = getResources().getString(R.string.lawsDrivingJOLHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartPage(v, heading, subHeading);
+    }
+    public void performCellPhonePage(View v) {
+        String subHeading = getResources().getString(R.string.lawsDrivingCellPhoneHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartPage(v, heading, subHeading);
+    }
 }
