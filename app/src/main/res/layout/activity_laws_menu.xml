@@ -54,22 +54,6 @@
             android:text="@string/lawsDrivingHeadingStr" />
 
         <Button
-            android:id="@+id/lawsDrivingApplyingLicenseHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:onClick="performStartApplyingPage"
-            android:text="@string/lawsDrivingApplyingLicenseHeadingStr" />
-
-        <Button
-            android:id="@+id/lawsDrivingForeignPolicyHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:onClick="performStartForeignPolicyPage"
-            android:text="@string/lawsDrivingForeignPolicyHeadingStr" />
-
-        <Button
             android:id="@+id/lawsDiscriminationHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
