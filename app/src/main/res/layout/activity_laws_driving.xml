@@ -46,6 +46,7 @@
             android:id="@+id/lawsDrivingForeignPolicyHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="performStartForeignPolicyPage"
             android:text="@string/lawsDrivingForeignPolicyHeadingStr" />
 
         <Button
