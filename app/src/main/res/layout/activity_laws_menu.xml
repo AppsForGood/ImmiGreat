@@ -81,6 +81,13 @@
             android:layout_height="wrap_content"
             android:onClick="performStartHealthcarePage"
             android:text="@string/lawsHealthcareHeadingStr" />
+
+        <Button
+            android:id="@+id/lawsPublicChargeHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartPublicChargePage"
+            android:text="@string/lawsPublicChargeHeadingStr" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

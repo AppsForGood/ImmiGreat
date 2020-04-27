@@ -9,6 +9,7 @@
 
     <!--Headings-->
     <string name="lawsHeadingStr">Laws</string>
+    <string name="transportationHeadingStr">Transportation</string>
 
     <!--Button labels and subheadings-->
     <string name="lawsEducationHeadingStr">Education</string>
@@ -19,9 +20,31 @@
     <string name="lawsDrivingJOLHeadingStr">Junior Operator License Requirements</string>
     <string name="lawsDiscriminationHeadingStr">Antidiscrimination</string>
     <string name="lawsHealthcareHeadingStr">Healthcare</string>
+    <string name="lawsHealthcarePageNewArrivalsStr">What do I do first?</string>
+    <string name="lawsHealthcarePageSpecialConcernsStr">Specific groups and special health concerns</string>
+    <string name="lawsHealthcarePageFactsheetsStr">Factsheets</string>
+    <string name="lawsPublicChargeHeadingStr">Public Charge</string>
+    <string name="lawsPublicChargePageOtherInformationStr">General Information</string>
+    <string name="lawsPublicChargePageFactsheetsStr">Factsheets</string>
+
+    <string name="transportationOverviewHeadingStr">Overview</string>
+    <string name="transportationStayingLocalHeadingStr">Staying Local?</string>
 
     <!--Content strings-->
-    <string name="educationPageContentStr">education is gud 4 u</string>
+    <string name="error404PageContentStr">ERROR</string>
+    <string name="lawsEducationPageContentStr">**filler text**</string>
+    <string name="lawsDrivingApplyingPageContentStr">**filler text**</string>
+    <string name="lawsHealthcarePageOverviewStr">All people in Massachusetts, regardless of
+        immigration status, have access to some sort of healthcare. For more information on the
+        different forms of healthcare and what forms you are eligible for, see below:
+    </string>
+    <string name="lawsPublicChargePageOverviewStr">Public charge is the law that prevents people who
+        are likely to become a government expense from becoming citizens of the United States. The
+        expenses which fall under public charge are cash assistance for income maintenance (such as
+        SSI and TANF) and institutionalization for long term care. If it is determined that an
+        non-citizen either constitutes a public charge or is likely to do so, they will lose their
+        eligibility to become a lawful citizen.
+    </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
