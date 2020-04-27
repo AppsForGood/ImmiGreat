@@ -52,8 +52,30 @@
         \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can be used to fly within the
         United States or enter federal buildings \n 3. Can start application online or start application
         at the RMV - https://atlas-myrmv.massdot.state.ma.us/myrmv/_/ </string>
-    <string name="lawsDrivingForeignPolicyPageContentStr">**filler text**</string>
-    <string name="lawsDrivingJOLPageContentStr">**filler text**</string>
+    <string name="lawsDrivingForeignPolicyPageContentStr">1. Foreign-licensed drivers from another country
+        that meet certain requirements* may operate a validly registered motor vehicle in Massachusetts
+        for up to 1 year. After 1 year, any non-immigrant visa holder must obtain a Massachusetts
+        Driver’s License in order to drive legally in the U.S. \n\t a. *Requirements: at least 16 years of
+        age, in possession of a valid driver’s license when operating a motor vehicle, may operate the
+        same type of vehicle in which licensed to operate in another country, license must not be suspended
+        or revoked,  if foreign license is not in English or doesn’t have an English translation, must
+        have an International Driving Permit (IDP), a Translation into English of a Foreign License
+        document, or an alternative translation documents that has a photo and English translation
+        that closely matches information from an IDP. </string>
+    <string name="lawsDrivingJOLPageContentStr">1. Any licensed individual between the ages of 16 ½ and
+        18 is a Junior Operator \n 2. Individuals are required to be at least 16 years of age before obtaining
+        a learner’s permit \n 3. Learner’s permits are obtained through the DMV/RMV \n 4. Learner’s permit
+        holders may drive if they have the learner’s permit while driving and when accompanied by a driver
+        who is licensed, at least 21 years of age, has at least one year of driving experience, and is
+        occupying the passenger’s seat (seat next to the driver) \n 5. Students under the age of 18 applying
+        for a license are required to have completed all of the requirements of drivers education: 30 hours of
+        classroom education, 12 hours of behind-the-wheel driving, 6 hours of in-car observation, and parent
+        attendance at a 2-hour parent class. \n 6. After obtaining a Junior Operator License, the teen is prohibited
+        from driving with any passengers under the age of 18, excluding any immediate family members, for the
+        first 6 months unless accompanied by a licensed driver who is at least 21 years old. \n 7. Anyone obtaining
+        a Junior Operator License is prohibited from driving between 12:30 a.m. and 5 a.m. unless accompanied
+        by a parent or legal guardian.
+ </string>
     <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by
         drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
         are required to use Bluetooth or another hands-free technology tool.</string>
