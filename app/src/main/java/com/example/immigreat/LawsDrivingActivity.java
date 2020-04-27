@@ -24,24 +24,24 @@ public class LawsDrivingActivity extends AppCompatActivity {
 
     public void performStartApplyingPage(View v) {
         String subHeading = getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
+        String heading = getResources().getString(R.string.lawsDrivingHeadingStr);
         performStartPage(v, heading, subHeading);
     }
 
     public void performStartForeignPolicyPage(View v) {
         String subHeading = getResources().getString(R.string.lawsDrivingForeignPolicyHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
+        String heading = getResources().getString(R.string.lawsDrivingHeadingStr);
         performStartPage(v, heading, subHeading);
     }
 
     public void performStartJOLPage(View v) {
         String subHeading = getResources().getString(R.string.lawsDrivingJOLHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
+        String heading = getResources().getString(R.string.lawsDrivingHeadingStr);
         performStartPage(v, heading, subHeading);
     }
     public void performStartCellPhonePage(View v) {
         String subHeading = getResources().getString(R.string.lawsDrivingCellPhoneHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
+        String heading = getResources().getString(R.string.lawsDrivingHeadingStr);
         performStartPage(v, heading, subHeading);
     }
 }
