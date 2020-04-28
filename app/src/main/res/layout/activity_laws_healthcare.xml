@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationMenuActivity">
+    tools:context=".LawsHealthcareActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,12 +12,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/transportationMenuPageHeading"
+            android:id="@+id/lawsHealthcareMenuPageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationHeadingStr"
+            android:text="@string/lawsHealthcareHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,32 +36,30 @@
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
         <TextView
-            android:id="@+id/transportationOverview"
+            android:id="@+id/lawsHealthcareOverview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/transportationMenuOverviewStr" />
+            android:text="@string/lawsHealthcarePageOverviewStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalHeading"
+            android:id="@+id/lawsHealthcareNewArrivals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartStayingLocalPage"
-            android:text="@string/transportationStayingLocalHeadingStr" />
+            android:onClick="performStartNewArrivalsPage"
+            android:text="@string/lawsHealthcarePageNewArrivalsStr" />
 
         <Button
-            android:id="@+id/transportationGoingFarHeading"
+            android:id="@+id/lawsHealthcareSpecialConcerns"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartGoingFarPage"
-            android:text="@string/transportationGoingFarHeadingStr" />
+            android:onClick="performStartSpecialConcernsPage"
+            android:text="@string/lawsHealthcarePageSpecialConcernsStr" />
 
         <Button
-            android:id="@+id/transportationAccessiblityHeading"
+            android:id="@+id/lawsHealthcareFactsheets"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartAccessibilityPage"
-            android:text="@string/transportationAccessibilityHeadingStr" />
-
+            android:onClick="performStartFactsheetsPage"
+            android:text="@string/lawsHealthcarePageFactsheetsStr" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

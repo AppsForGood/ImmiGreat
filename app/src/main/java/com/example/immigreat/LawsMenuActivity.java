@@ -72,14 +72,12 @@ public class LawsMenuActivity extends AppCompatActivity {
     }
 
     public void performStartHealthcarePage(View v) {
-        String subHeading = getResources().getString(R.string.lawsHealthcareHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartTextPage(v, heading, subHeading);
+        Intent intent = new Intent(this, LawsHealthcareActivity.class);
+        startActivity(intent);
     }
 
     public void performStartPublicChargePage(View v) {
-        String subHeading = getResources().getString(R.string.lawsPublicChargeHeadingStr);
-        String heading = getResources().getString(R.string.lawsHeadingStr);
-        performStartTextPage(v, heading, subHeading);
+        Intent intent = new Intent(this, LawsPublicChargeActivity.class);
+        startActivity(intent);
     }
 }

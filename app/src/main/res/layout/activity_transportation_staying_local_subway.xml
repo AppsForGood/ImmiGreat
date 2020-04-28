@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationMenuActivity">
+    tools:context=".TransportationStayingLocalSubwayActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,12 +12,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/transportationMenuPageHeading"
+            android:id="@+id/transportationStayingLocalPageHeading2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationHeadingStr"
+            android:text="@string/transportationStayingLocalSubwayStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,32 +36,44 @@
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
         <TextView
-            android:id="@+id/transportationOverview"
+            android:id="@+id/transportationStayingLocalSubwayOverview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/transportationMenuOverviewStr" />
+            android:text="@string/transportationStayingLocalSubwayOverviewStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalHeading"
+            android:id="@+id/transportationStayingLocalSubwaySchedules"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartStayingLocalPage"
-            android:text="@string/transportationStayingLocalHeadingStr" />
+            android:onClick="performStartSchedulesPage"
+            android:text="@string/transportationStayingLocalSubwaySchedulesStr" />
 
         <Button
-            android:id="@+id/transportationGoingFarHeading"
+            android:id="@+id/transportationStayingLocalSubwayjFares"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartGoingFarPage"
-            android:text="@string/transportationGoingFarHeadingStr" />
+            android:onClick="performStartFaresPage"
+            android:text="@string/transportationStayingLocalSubwayFaresStr" />
 
         <Button
-            android:id="@+id/transportationAccessiblityHeading"
+            android:id="@+id/transportationStayingLocalSubwayEtiquette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartEtiquettePage"
+            android:text="@string/transportationStayingLocalSubwayEtiquetteStr" />
+
+        <Button
+            android:id="@+id/transportationStayingLocalSubwayAccessibility"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartAccessibilityPage"
-            android:text="@string/transportationAccessibilityHeadingStr" />
+            android:text="@string/transportationStayingLocalSubwayAccessibilityStr" />
 
+        <Button
+            android:id="@+id/transportationStayingLocalSubwayLanguageServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartLanguageServicesPage"
+            android:text="@string/transportationStayingLocalSubwayLanguageServicesStr" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

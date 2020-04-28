@@ -23,4 +23,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LawsMenuActivity.class);
         startActivity(intent);
     }
+
+    public void performStartTransportationMenu(View v) {
+        Intent intent = new Intent(this, TransportationMenuActivity.class);
+        startActivity(intent);
+    }
 }

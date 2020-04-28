@@ -50,22 +50,46 @@ public class TextPageActivity extends AppCompatActivity {
             else if(subHeadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
                 return new LawsApplyingFragment();
             }
-            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr))){
-                return new LawsHealthcareFragment();
+        }
+        if(headingText.equals(getResources().getString(R.string.lawsHealthcareHeadingStr))) {
+            if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageNewArrivalsStr))){
+                return new LawsHealthcareNewArrivalsFragment();
             }
-            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageFactsheetsStr))){
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageSpecialConcernsStr))) {
+                return new LawsHealthcareSpecialConcernsFragment();
+            }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageFactsheetsStr))) {
                 return new LawsHealthcareFactsheetsFragment();
             }
-            else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
-                return new LawsPublicChargeFragment();
+        }
+        if(headingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
+            if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargePageOtherInformationStr))) {
+                return new LawsPublicChargeOtherInformationFragment();
+            }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargePageFactsheetsStr))) {
+                return new LawsPublicChargeFactsheetsFragment();
             }
         }
         if(headingText.equals(getResources().getString(R.string.transportationHeadingStr))) {
-            if(subHeadingText.equals(getResources().getString(R.string.transportationOverviewHeadingStr))){
-                return new TransportationOverviewFragment();
+            if(subHeadingText.equals(getResources().getString(R.string.transportationAccessibilityHeadingStr))){
+                return new TransportationAccessibilityFragment();
             }
-            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalHeadingStr))){
-                return new TransportationStayingLocalFragment();
+        }
+        if(headingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayStr))) {
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwaySchedulesStr))){
+                return new TransportationStayingLocalSubwaySchedulesFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayFaresStr))){
+                return new TransportationStayingLocalSubwayFaresFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayEtiquetteStr))){
+                return new TransportationStayingLocalSubwayEtiquetteFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayAccessibilityStr))){
+                return new TransportationStayingLocalSubwayAccessibilityFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayLanguageServicesStr))){
+                return new TransportationStayingLocalSubwayLanguageServicesFragment();
             }
         }
         return new Error404Fragment();

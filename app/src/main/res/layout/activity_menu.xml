@@ -19,6 +19,7 @@
             android:id="@+id/menuButton1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:onClick="performStartTransportationMenu"
             android:text="@string/menuButton1Str" />
 
         <Space

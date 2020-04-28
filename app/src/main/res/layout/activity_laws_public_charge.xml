@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationMenuActivity">
+    tools:context=".LawsPublicChargeActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,12 +12,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/transportationMenuPageHeading"
+            android:id="@+id/lawsPublicChargePageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationHeadingStr"
+            android:text="@string/lawsPublicChargeHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -36,32 +36,24 @@
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
         <TextView
-            android:id="@+id/transportationOverview"
+            android:id="@+id/lawsPublicChargeOverview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/transportationMenuOverviewStr" />
+            android:text="@string/lawsPublicChargePageOverviewStr"
+            android:visibility="visible" />
 
         <Button
-            android:id="@+id/transportationStayingLocalHeading"
+            android:id="@+id/lawsPublicChargeOtherInformation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartStayingLocalPage"
-            android:text="@string/transportationStayingLocalHeadingStr" />
+            android:onClick="performStartOtherInformationPage"
+            android:text="@string/lawsPublicChargePageOtherInformationStr" />
 
         <Button
-            android:id="@+id/transportationGoingFarHeading"
+            android:id="@+id/lawsPublicChargeFactsheets"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartGoingFarPage"
-            android:text="@string/transportationGoingFarHeadingStr" />
-
-        <Button
-            android:id="@+id/transportationAccessiblityHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartAccessibilityPage"
-            android:text="@string/transportationAccessibilityHeadingStr" />
-
+            android:onClick="performStartFactsheetsPage"
+            android:text="@string/lawsPublicChargePageFactsheetsStr" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

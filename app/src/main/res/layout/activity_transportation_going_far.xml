@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationMenuActivity">
+    tools:context=".TransportationGoingFarActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,12 +12,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/transportationMenuPageHeading"
+            android:id="@+id/lawsPublicChargePageHeading4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationHeadingStr"
+            android:text="@string/transportationGoingFarHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
@@ -34,34 +34,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
-
-        <TextView
-            android:id="@+id/transportationOverview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/transportationMenuOverviewStr" />
-
-        <Button
-            android:id="@+id/transportationStayingLocalHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartStayingLocalPage"
-            android:text="@string/transportationStayingLocalHeadingStr" />
-
-        <Button
-            android:id="@+id/transportationGoingFarHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartGoingFarPage"
-            android:text="@string/transportationGoingFarHeadingStr" />
-
-        <Button
-            android:id="@+id/transportationAccessiblityHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartAccessibilityPage"
-            android:text="@string/transportationAccessibilityHeadingStr" />
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

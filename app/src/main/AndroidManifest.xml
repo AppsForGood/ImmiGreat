@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LawsDrivingActivity"></activity>
+        <activity android:name=".TransportationStayingLocalSubwayActivity"></activity>
+        <activity android:name=".TransportationGoingFarActivity" />
+        <activity android:name=".TransportationStayingLocalActivity" />
+        <activity android:name=".LawsPublicChargeActivity" />
+        <activity android:name=".LawsHealthcareActivity" />
+        <activity android:name=".LawsDrivingActivity" />
         <activity android:name=".TransportationMenuActivity" />
         <activity android:name=".TextPageActivity" />
         <activity android:name=".LawsMenuActivity" />

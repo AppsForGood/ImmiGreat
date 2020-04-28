@@ -27,8 +27,17 @@
     <string name="lawsPublicChargePageOtherInformationStr">General Information</string>
     <string name="lawsPublicChargePageFactsheetsStr">Factsheets</string>
 
-    <string name="transportationOverviewHeadingStr">Overview</string>
     <string name="transportationStayingLocalHeadingStr">Staying Local?</string>
+    <string name="transportationGoingFarHeadingStr">Going Further Afield?</string>
+    <string name="transportationAccessibilityHeadingStr">Is accessibility a concern?</string>
+    <string name="transportationStayingLocalSubwayStr">Subway</string>
+    <string name="transportationStayingLocalSubwaySchedulesStr">Schedules, Routes, and Maps</string>
+    <string name="transportationStayingLocalSubwayFaresStr">Fares</string>
+    <string name="transportationStayingLocalSubwayEtiquetteStr">Etiquette</string>
+    <string name="transportationStayingLocalSubwayAccessibilityStr">Accessibility</string>
+    <string name="transportationStayingLocalSubwayLanguageServicesStr">Language services</string>
+    <string name="transportationStayingLocalBusStr">Bus routes</string>
+    <string name="transportationStayingLocalFerryStr">Ferry routes</string>
 
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
@@ -45,6 +54,23 @@
         non-citizen either constitutes a public charge or is likely to do so, they will lose their
         eligibility to become a lawful citizen.
     </string>
+
+    <string name="transportationMenuOverviewStr">The MBTA (Massachusetts Bay Transportation
+        Authority) is the association which is responsible for a collection of public transportation
+        services which are offered in the Massachusetts area. The services are broken down based on
+        the type of transportation provided, the region which it is available for, fees,
+        accessibility, etc. Select a button below for more information:
+    </string>
+    <string name="transportationStayingLocalOverviewStr">Transportation systems in the Greater
+        Boston Area:
+    </string>
+    <string name="transportationStayingLocalSubwayOverviewStr">The subway, or occasionally simply
+        referred to as the “T” is a group of underground trains which travel specifically within the
+        greater Boston area. The T is composed of 4 major lines: Red, Orange, Green, and Blue, but
+        all of these lines do connect to each other, allowing for travel across all parts of the
+        area. For a general guide on using the subway, click
+        <a href="https://www.mbta.com/guides/subway-guide">here. </a>
+        For more specific information see below:</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
