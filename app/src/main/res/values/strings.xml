@@ -42,7 +42,52 @@
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
     <string name="lawsEducationPageContentStr">**filler text**</string>
-    <string name="lawsDrivingApplyingPageContentStr">**filler text**</string>
+    <string name="lawsDrivingApplyingPageContentStr">1. Required documents: proof of U.S. citizenship
+        or lawful presence, Social Security number, and Massachusetts residency. \n\t a. Original documents,
+        no photocopies or laminated documents \n\t b. One document cannot be used to prove more than one
+        requirement \n\t c. Lawful presence: legally living in the U.S. according to federal immigration
+        laws \n\t\t i. Non-U.S. citizens who are working, studying, or living temporarily in the U.S.
+        might have temporary lawful presence that varies in length \n\t\t ii. For U.S. citizens: valid,
+        unexpired U.S. passport or certified copy of U.S. birth certificate \n\t\t iii. For permanent
+        residents: valid permanent resident card (green card) iv. For non-U.S. citizens: valid verifiable
+        immigration documents and proof of grant of a legal stay in the U.S. for at least 12 months
+        \n\t d. Social Security Number (SSN): must have a valid SSN (9 digit number) to apply for any
+        learner’s permit, driver’s license, or ID card, bring one of the following: \n\t\t i. SSN card
+        (not laminated) \n\t\t ii. W-2 Form \n\t\t iii. SSA 1099 Form \n\t\t iv. Pay stub \n\t e.
+        Massachusetts residency documents: document showing current residential address(2 of the
+        following documents for a Real ID, 1 for Standard driver\'s license) \n\t\t i. Massachusetts
+        RMV-issued documents \n\t\t ii. State/federal/municipal/city/town/country agency-issued documents
+        \n\t\t iii. Bills \n\t\t iv. Lease/Mortgage documents \n\t\t vi. Financial related document
+        \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can be used to fly within the
+        United States or enter federal buildings \n 3. Can start application online or start application
+        at the RMV - https://atlas-myrmv.massdot.state.ma.us/myrmv/_/ </string>
+    <string name="lawsDrivingForeignPolicyPageContentStr">1. Foreign-licensed drivers from another country
+        that meet certain requirements* may operate a validly registered motor vehicle in Massachusetts
+        for up to 1 year. After 1 year, any non-immigrant visa holder must obtain a Massachusetts
+        Driver’s License in order to drive legally in the U.S. \n\t a. *Requirements: at least 16 years of
+        age, in possession of a valid driver’s license when operating a motor vehicle, may operate the
+        same type of vehicle in which licensed to operate in another country, license must not be suspended
+        or revoked,  if foreign license is not in English or doesn’t have an English translation, must
+        have an International Driving Permit (IDP), a Translation into English of a Foreign License
+        document, or an alternative translation documents that has a photo and English translation
+        that closely matches information from an IDP. </string>
+    <string name="lawsDrivingJOLPageContentStr">1. Any licensed individual between the ages of 16 ½ and
+        18 is a Junior Operator \n 2. Individuals are required to be at least 16 years of age before obtaining
+        a learner’s permit \n 3. Learner’s permits are obtained through the DMV/RMV \n 4. Learner’s permit
+        holders may drive if they have the learner’s permit while driving and when accompanied by a driver
+        who is licensed, at least 21 years of age, has at least one year of driving experience, and is
+        occupying the passenger’s seat (seat next to the driver) \n 5. Students under the age of 18 applying
+        for a license are required to have completed all of the requirements of drivers education: 30 hours of
+        classroom education, 12 hours of behind-the-wheel driving, 6 hours of in-car observation, and parent
+        attendance at a 2-hour parent class. \n 6. After obtaining a Junior Operator License, the teen is prohibited
+        from driving with any passengers under the age of 18, excluding any immediate family members, for the
+        first 6 months unless accompanied by a licensed driver who is at least 21 years old. \n 7. Anyone obtaining
+        a Junior Operator License is prohibited from driving between 12:30 a.m. and 5 a.m. unless accompanied
+        by a parent or legal guardian.
+ </string>
+    <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by
+        drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
+        are required to use Bluetooth or another hands-free technology tool.</string>
     <string name="lawsHealthcarePageOverviewStr">All people in Massachusetts, regardless of
         immigration status, have access to some sort of healthcare. For more information on the
         different forms of healthcare and what forms you are eligible for, see below:
