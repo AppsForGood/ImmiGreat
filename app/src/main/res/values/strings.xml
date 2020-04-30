@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ImmiGreat</string>
-    <string name="welcomeStr">Welcome!</string>
+    <string name="welcomeStr">Welcome!</string> <!--English-->
+    <string name="welcomeStr1">स्वागत हे!</string> <!--Hindi-->
+    <string name="welcomeStr2">欢迎!</string> <!--Chinese Simplified-->
+    <string name="welcomeStr3">أهلا بك!</string> <!--Arabic-->
 
     <!--Big buttons on main menu-->
     <string name="menuButton1Str">Public Transportation</string>

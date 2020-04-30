@@ -5,12 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private static String TAG = "MainActivity";
+    private static boolean mainActivityIsActive;
 
     /**
      *
@@ -19,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mainActivityIsActive = true;
     }
 
     /**
@@ -33,6 +37,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+        mainActivityIsActive = true;
+
+        Runnable changeTextRunnable = new Runnable() {
+            @Override
+            public void run() {
+                changeText();
+            }
+        };
+
+        new Thread(changeTextRunnable).start();
+
         Log.i(TAG, "onResume");
     }
 
@@ -45,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+        mainActivityIsActive = false;
         Log.i(TAG, "onPause");
     }
 
@@ -73,8 +90,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * TODO write this comment
-     * @param v
+     * This method starts the main menu activity.
+     * @param v The current view
+     * @see com.example.immigreat.MenuActivity
      */
 
     public void performStartMenu(View v) {
@@ -82,6 +100,32 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    Handler changeTextHandler = new Handler();
 
-    //Sri's update
+    public void changeText() {
+        while (mainActivityIsActive) {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            changeTextHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    TextView welcomeBtnTextView = (TextView) findViewById(R.id.welcomeButton);
+                    if (welcomeBtnTextView.getText().equals(getString(R.string.welcomeStr))) {
+                        welcomeBtnTextView.setText(getString(R.string.welcomeStr1));
+                    } else if (welcomeBtnTextView.getText().equals(getString(R.string.welcomeStr1))) {
+                        welcomeBtnTextView.setText(getString(R.string.welcomeStr2));
+                    } else if (welcomeBtnTextView.getText().equals(getString(R.string.welcomeStr2))) {
+                        welcomeBtnTextView.setText(getString(R.string.welcomeStr3));
+                    } else if (welcomeBtnTextView.getText().equals(getString(R.string.welcomeStr3))) {
+                        welcomeBtnTextView.setText(getString(R.string.welcomeStr));
+                    }
+                }
+            });
+        }
+    }
+
 }
