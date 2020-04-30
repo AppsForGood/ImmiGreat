@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 
 public class LawsDrivingActivity extends AppCompatActivity {
 
@@ -12,6 +14,7 @@ public class LawsDrivingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laws_driving);
+
     }
 
     public void performStartPage(View v, String heading, String subHeading) {
