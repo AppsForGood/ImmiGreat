@@ -74,4 +74,10 @@ public class LawsMenuActivity extends AppCompatActivity {
         String heading = getResources().getString(R.string.lawsHeadingStr);
         performStartTextPage(v, heading, subHeading);
     }
+
+    public void performStartAntidiscriminationPage(View v) {
+        String subHeading = getResources().getString(R.string.lawsDiscriminationHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartTextPage(v, heading, subHeading);
+    }
 }

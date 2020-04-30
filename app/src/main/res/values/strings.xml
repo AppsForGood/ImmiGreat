@@ -45,7 +45,25 @@
 
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
-    <string name="lawsEducationPageContentStr">**filler text**</string>
+    <string name="lawsEducationPageContentStr"> 1. Required hours of attendance at public school \n\t
+        i. Every minor subject to laws pertaining to public schools is required to attend said schools/courses
+        in the town of his employment for no less than 4 hours per week. \n\t ii. Attendance of minors
+        who are required to attend continuation schools, and are temporarily out of work, are required
+        to attend said school for no less than 20 hours per week. \n2. Compulsory education laws \n\t
+        i. Children aged 7 and older are required to attend school, unless deemed mentally or physically
+        unable to attend/ have immediate needs at home \n\t ii. In Massachusetts, individuals are required
+        to attend school if they are under the age of 16 years. \n\t\t a. 14-16 year olds who have completed
+        6th grade and hold a permit for employment in domestic service or a farm, is regularly employed
+        a minimum of 6 hours per day, and has written permission of superintendent to engage in non-wage
+        earning employment at home are allowed to not attend school \n\t iii. Homeschool provisions approval
+        is up to the superintendent and/or school committee - review curriculum, evaluation methods,
+        textbooks, etc.\n3. Federal Law \n\t i. States and school districts are required to provide all
+        children in the U.S. with an equal access to a basic public education regardless of citizenship
+        or immigration status. \n4. No refusing \n\t i. No school committee shall refuse a school-age
+        child with a disability admission or continued attendance in a public school without prior
+        written approval of the department and without complying with state and federal requirements
+        for discipling students with disabilities
+    </string>
     <string name="lawsDrivingApplyingPageContentStr">1. Required documents: proof of U.S. citizenship
         or lawful presence, Social Security number, and Massachusetts residency. \n\t a. Original documents,
         no photocopies or laminated documents \n\t b. One document cannot be used to prove more than one
@@ -69,8 +87,8 @@
         cable, etc), credit card statement, medical statement, cell phone bill all dated within 60 days
         \n\t\t iv. Lease/Mortgage documents \n\t\t\t Ex) Current lease/mortgage or similar rental contract
         \n\t\t vi. Financial related document \n\t\t\t Ex) Bank statements, SSA statement, school-issued
-        documents, insurance related documents \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can
-        be used to fly within the United States or enter federal buildings \n 3. Can start application
+        documents, insurance related documents \n2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can
+        be used to fly within the United States or enter federal buildings \n3. Can start application
         online or start application at the RMV - <a href="https://atlas-myrmv.massdot.state.ma.us/myrmv/_/">https://atlas-myrmv.massdot.state.ma.us/myrmv/_/</a>
     </string>
     <string name="lawsDrivingForeignPolicyPageContentStr">1. Foreign-licensed drivers from another country
@@ -84,26 +102,26 @@
         document, or an alternative translation documents that has a photo and English translation
         that closely matches information from an IDP. </string>
     <string name="lawsDrivingJOLPageContentStr">1. Any licensed individual between the ages of 16 ½ and
-        18 is a Junior Operator \n 2. Individuals are required to be at least 16 years of age before obtaining
-        a learner’s permit \n 3. Learner’s permits are obtained through the DMV/RMV \n 4. Learner’s permit
+        18 is a Junior Operator \n2. Individuals are required to be at least 16 years of age before obtaining
+        a learner’s permit \n3. Learner’s permits are obtained through the DMV/RMV \n4. Learner’s permit
         holders may drive if they have the learner’s permit while driving and when accompanied by a driver
         who is licensed, at least 21 years of age, has at least one year of driving experience, and is
-        occupying the passenger’s seat (seat next to the driver) \n 5. Students under the age of 18 applying
+        occupying the passenger’s seat (seat next to the driver) \n5. Students under the age of 18 applying
         for a license are required to have completed all of the requirements of drivers education: 30 hours of
         classroom education, 12 hours of behind-the-wheel driving, 6 hours of in-car observation, and parent
-        attendance at a 2-hour parent class. \n 6. After obtaining a Junior Operator License, the teen is prohibited
+        attendance at a 2-hour parent class. \n6. After obtaining a Junior Operator License, the teen is prohibited
         from driving with any passengers under the age of 18, excluding any immediate family members, for the
-        first 6 months unless accompanied by a licensed driver who is at least 21 years old. \n 7. Anyone obtaining
+        first 6 months unless accompanied by a licensed driver who is at least 21 years old. \n7. Anyone obtaining
         a Junior Operator License is prohibited from driving between 12:30 a.m. and 5 a.m. unless accompanied
         by a parent or legal guardian.
     </string>
     <string name="lawsKnowYourRightsContentStr"> 1. Individuals have freedom of speech, freedom of religion,
-        freedom of assembly, freedom of the press, and the right to petition. \n 2. Stopped by Police/Pulled
+        freedom of assembly, freedom of the press, and the right to petition. \n2. Stopped by Police/Pulled
         over by police \n\t i. You have the right to remain silent. If you wish to exercise this right,
         say so out loud. \n\t ii. If arrested, you have the right to a government-appointed lawyer if
         unable to afford one of your own and the right to make a local phone call. \n\t iii. If police
         are at your door, they may not enter without a warrant signed by a judicial officer that lists
-        your address or has your name on it. \n 3. Voting in Massachusetts \n\t i. Individuals must be at
+        your address or has your name on it. \n3. Voting in Massachusetts \n\t i. Individuals must be at
         least 18 years of age, a U.S. citizen, meet state’s residency requirements, and registered to
         vote by state’s voter registration deadline in order to vote. \n\t ii. Individuals must be a
         resident of the state - the amount of time you have been a resident does not matter \n\t iii.
@@ -116,12 +134,11 @@
         health insurance connector authority, and other agencies that collect reliable citizenship information
         \n\t vi. Online registration - Individuals can visit <a href="https://www.sec.state.ma.us/ovr/">https://www.sec.state.ma.us/ovr/</a>
         to register online
-        \n 4. Marriage \n\t i. Same sex marriage is legal in all 50 states. \n\t ii. To obtain a marriage
+        \n4. Marriage \n\t i. Same sex marriage is legal in all 50 states. \n\t ii. To obtain a marriage
         license, an individual must be at least 18 years of age. Parental consent is required for individuals
         under the age of 18. \n\t iii. Marrying a relative is illegal.
-
     </string>
-    <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by
+    <string name="lawsDrivingCellPhonePageContentStr">1. In Massachusetts, hand-held cell phone use by
         drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
         are required to use Bluetooth or another hands-free technology tool.</string>
     <string name="lawsHealthcarePageOverviewStr">All people in Massachusetts, regardless of
