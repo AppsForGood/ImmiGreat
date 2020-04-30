@@ -2,11 +2,14 @@ package com.example.immigreat;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -60,5 +63,12 @@ public class LawsHealthcareNewArrivalsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_laws_healthcare_new_arrivals, container, false);
+    }
+
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        TextView naContent1 = (TextView) getView().findViewById(R.id.healthcareNewArrivalsContent1);
+        naContent1.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView naContent2 = (TextView) getView().findViewById(R.id.healthcareNewArrivalsContent2);
+        naContent2.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

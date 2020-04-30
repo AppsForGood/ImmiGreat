@@ -36,7 +36,7 @@ public class LawsHealthcareActivity extends AppCompatActivity {
 
     public void performStartFactsheetsPage(View v) {
         String subHeading = getResources().getString(R.string.lawsHealthcarePageFactsheetsStr);
-        String heading = getResources().getString(R.string.lawsHealthcarePageFactsheetsStr);
+        String heading = getResources().getString(R.string.lawsHealthcareHeadingStr);
         performStartPage(v, heading, subHeading);
     }
 }

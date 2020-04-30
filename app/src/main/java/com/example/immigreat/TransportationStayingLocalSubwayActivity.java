@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 
 public class TransportationStayingLocalSubwayActivity extends AppCompatActivity {
 
@@ -12,6 +14,8 @@ public class TransportationStayingLocalSubwayActivity extends AppCompatActivity 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transportation_staying_local_subway);
+        TextView text = (TextView) findViewById(R.id.transportationStayingLocalSubwayOverview);
+        text.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void performStartTextPage(View v, String heading, String subHeading) {

@@ -24,9 +24,9 @@
     <string name="lawsKnowYourRightsHeadingStr">Know Your Rights</string>
     <string name="lawsDiscriminationHeadingStr">Antidiscrimination</string>
     <string name="lawsHealthcareHeadingStr">Healthcare</string>
-    <string name="lawsHealthcarePageNewArrivalsStr">What do I do first?</string>
-    <string name="lawsHealthcarePageSpecialConcernsStr">Specific groups and special health concerns</string>
-    <string name="lawsHealthcarePageFactsheetsStr">Factsheets</string>
+    <string name="lawsHealthcarePageNewArrivalsStr">What Do I Do First?</string>
+    <string name="lawsHealthcarePageSpecialConcernsStr">Specific Groups and Special Health Concerns</string>
+    <string name="lawsHealthcarePageFactsheetsStr">Factsheets and Other Resources</string>
     <string name="lawsPublicChargeHeadingStr">Public Charge</string>
     <string name="lawsPublicChargePageOtherInformationStr">General Information</string>
     <string name="lawsPublicChargePageFactsheetsStr">Factsheets</string>
@@ -159,10 +159,59 @@
     <string name="lawsDrivingCellPhonePageContentStr">1. In Massachusetts, hand-held cell phone use by
         drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
         are required to use Bluetooth or another hands-free technology tool.</string>
+
     <string name="lawsHealthcarePageOverviewStr">All people in Massachusetts, regardless of
         immigration status, have access to some sort of healthcare. For more information on the
         different forms of healthcare and what forms you are eligible for, see below:
     </string>
+    <string name="lawsHealthcareNewArrivalsHeading1">Preventative and Early Care</string>
+    <string name="lawsHealthcareNewArrivalsContent1">There are a variety of different ways which can
+        be done, but one of the easiest is the
+        <a href="https://www.mass.gov/refugee-health-assessment-program-rhap">RHAP (Refugee Health
+            Assessment Program).</a> RHAP is a service provided by the Massachusetts Office for
+        Refugees and Immigrants, and they work to provide services which are both linguistically and
+        culturally appropriate to people who are newly arriving to the country. \n In addition to
+        primary assessment services, RHAP provides follow up check ups, immunizations, and referral
+        to primary care services. \n \n A second association which offers similar services is the
+        <a href="https://www.acf.hhs.gov/orr/programs/preventive-health/about">Refugee Preventative
+            Health Program (RHP)</a> through the Office of Refugee Resettlement, provided by the
+        federal government.
+    </string>
+    <string name="lawsHealthcareNewArrivalsHeading2">Ongoing Care: Refugee Medical Assistance (RMA)
+    </string>
+    <string name="lawsHealthcareNewArrivalsContent2">Individuals who have gained legal refugee
+        status or anyone else eligible for Office of Refugee Resettlement (ORR) service (determine
+        your eligibility <a href="https://www.acf.hhs.gov/orr/about/what-we-do">here</a>) but are
+        not eligible for medicaid are entitled to 8 months of Refugee Medical Assistance. RMA
+        provides similar benefits to medicaid, but to this specific population. Please note that: \n
+        -This 8 month period starts on the date of arrival to the United States, not date of
+        entering the program \n -After the 8 months have elapsed, individuals must determine their
+        qualified immigrant status to see what healthcare they are eligible for. Learn more about
+        qualified immigrant status
+        <a href="https://www.nilc.org/issues/economic-support/overview-immeligfedprograms/">here</a>.
+    </string>
+    <string name="lawsHealthcareFactsheetsContent">Some important information on healthcare in
+        Massachusetts: \n-HIPAA laws mean that health professionals cannot give away personal
+        information about (but not limited to) immigration, and so going to the doctor, the health
+        clinic, or the hospital is safe for everyone, and so is applying for public health insurance
+        though MassHealth, the Health Connector and Mass Safety Net. \n-Getting health insurance
+        does not warrant a public charge, and thus does not inhibit your ability to apply/get
+        citizenship, nor does it affect your immigrant status. \n\n For a factsheet with all of this
+        information and more click
+        <a href="ability to apply/get citizenship, nor does it affect your immigrant status">here</a>.
+        \n\n Want more information about the availability of health insurance, specifically in
+        Massachusetts? Visit <a href="https://www.hcfama.org/immigrant-health">Healthcare for All</a>
+        \n Want to start applying for Healthcare? Start with the
+        <a href="https://www.mahealthconnector.org/">Mass Health Connector Portal</a>.
+    </string>
+    <string name="lawsHealthcareSpecialConcernsContent">There are a variety of services provided by
+        the state of Massachusetts for groups which may have specialized medical needs, both
+        physical and mental. These groups include: \n-Women, particularly mothers to young children
+        and infants \n-Victims of domestic violence \n-Victims of Trafficking \n-Victims of assault
+        and/or abuse. \n\n Information about all of these specialized services can be found at the
+        bottom of <a href="https://refugeeswelcomehome.org/refugee-health-care/">this webpage</a>.
+    </string>
+
     <string name="lawsPublicChargePageOverviewStr">Public charge is the law that prevents people who
         are likely to become a government expense from becoming citizens of the United States. The
         expenses which fall under public charge are cash assistance for income maintenance (such as
@@ -186,7 +235,7 @@
         greater Boston area. The T is composed of 4 major lines: Red, Orange, Green, and Blue, but
         all of these lines do connect to each other, allowing for travel across all parts of the
         area. For a general guide on using the subway, click
-        <a href="https://www.mbta.com/guides/subway-guide">here. </a>
+        <a href="https://www.mbta.com/guides/subway-guide">here.</a>
         For more specific information see below:</string>
 
     <!-- TODO: Remove or change this placeholder text -->
