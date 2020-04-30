@@ -138,6 +138,24 @@
         license, an individual must be at least 18 years of age. Parental consent is required for individuals
         under the age of 18. \n\t iii. Marrying a relative is illegal.
     </string>
+    <string name="lawsDiscriminationPageContentStr">1. Federally Assisted Program \n\t i. Prohibits
+        discrimination in federally assisted programs - no person in the U.S. can be excluded from,
+        denied benefits of, or subject to discrimination under and program that receives federal
+        assistance based on their race, color, or national origin (this includes limited proficiency
+        in English) \n\t\t a. Examples of federally assisted programs: Child and Adult Care Food Program,
+        Supplemental Nutrition Assistance Program, Alcohol, Drug Abuse, and Mental Health Services Block
+        Grant \n2. Public Accommodation \n\t i. Prohibits making distinction, discrimination or restriction
+        in admitting to a place of public accommodation based on race, color, religious beliefs, national
+        origin, sex, sexual orientation, disability, or ancestry \n3. State provided services \n\t i. All
+        programs, activities and services provided by the state are required to be conducted without
+        unlawful discrimination based on race, color, age, gender, ethnicity, sexual orientation, gender
+        identity or expression, religion, ancestry, national origin, disability, veteran status, or
+        background \n4. Religious Freedom \n\t i. Employers are prohibited from discriminating on the
+        basis of religion. \n\t ii. Religious discrimination in rental, sale, and financing of homes
+        is prohibited. \n\t iii. School officials can not include religious activities into school
+        events, impose their faith on students, require students to read religious texts without a
+        secular reason for doing so, display religious symbols without a secular, academic reason, etc.
+    </string>
     <string name="lawsDrivingCellPhonePageContentStr">1. In Massachusetts, hand-held cell phone use by
         drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
         are required to use Bluetooth or another hands-free technology tool.</string>
