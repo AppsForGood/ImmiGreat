@@ -52,15 +52,23 @@
         residents: valid permanent resident card (green card) iv. For non-U.S. citizens: valid verifiable
         immigration documents and proof of grant of a legal stay in the U.S. for at least 12 months
         \n\t d. Social Security Number (SSN): must have a valid SSN (9 digit number) to apply for any
-        learner’s permit, driver’s license, or ID card, bring one of the following: \n\t\t i. SSN card
-        (not laminated) \n\t\t ii. W-2 Form \n\t\t iii. SSA 1099 Form \n\t\t iv. Pay stub \n\t e.
-        Massachusetts residency documents: document showing current residential address(2 of the
-        following documents for a Real ID, 1 for Standard driver\'s license) \n\t\t i. Massachusetts
-        RMV-issued documents \n\t\t ii. State/federal/municipal/city/town/country agency-issued documents
-        \n\t\t iii. Bills \n\t\t iv. Lease/Mortgage documents \n\t\t vi. Financial related document
-        \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can be used to fly within the
-        United States or enter federal buildings \n 3. Can start application online or start application
-        at the RMV - https://atlas-myrmv.massdot.state.ma.us/myrmv/_/ </string>
+        learner\’s permit, driver\’s license, or ID card, bring one of the following: \n\t\t i. SSN card
+        (not laminated) \n\t\t ii. W-2 Form - wage and tax statement \n\t\t iii. SSA 1099 Form - tax
+        form for individuals who receive social security benefits \n\t\t iv. Pay stub with applicant\'s
+        name and full SSN \n\t\t v. SSN denial notice with passport, visa and I-94 \n\t e. Massachusetts
+        residency documents: document showing current residential address(2 of the following documents
+        for a Real ID, 1 for Standard driver\'s license) \n\t\t i. Massachusetts RMV-issued documents
+        \n\t\t\t Ex) Current license, Massachusetts ID card, learner\'s permit, or RMV-issued correspondence
+        \n\t\t ii. State/federal/municipal/city/town/country agency-issued documents \n\t\t\t Ex) 1st
+        class government-issued mail, medicaid statement, current firearms card, or jury duty summons
+        all dated within 60 days \n\t\t iii. Bills \n\t\t\t Ex) Utility bill (electric, telephone, water,
+        cable, etc), credit card statement, medical statement, cell phone bill all dated within 60 days
+        \n\t\t iv. Lease/Mortgage documents \n\t\t\t Ex) Current lease/mortgage or similar rental contract
+        \n\t\t vi. Financial related document \n\t\t\t Ex) Bank statements, SSA statement, school-issued
+        documents, insurance related documents \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can
+        be used to fly within the United States or enter federal buildings \n 3. Can start application
+        online or start application at the RMV - https://atlas-myrmv.massdot.state.ma.us/myrmv/_/
+    </string>
     <string name="lawsDrivingForeignPolicyPageContentStr">1. Foreign-licensed drivers from another country
         that meet certain requirements* may operate a validly registered motor vehicle in Massachusetts
         for up to 1 year. After 1 year, any non-immigrant visa holder must obtain a Massachusetts
