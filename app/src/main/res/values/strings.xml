@@ -97,8 +97,28 @@
         a Junior Operator License is prohibited from driving between 12:30 a.m. and 5 a.m. unless accompanied
         by a parent or legal guardian.
     </string>
-    <string name="lawsKnowYourRightsContentStr"> 1. Individuals have freedom of speech, freedom of religion, freedom of assembly, freedom of the press, and the right to petition.
-
+    <string name="lawsKnowYourRightsContentStr"> 1. Individuals have freedom of speech, freedom of religion,
+        freedom of assembly, freedom of the press, and the right to petition. \n 2. Stopped by Police/Pulled
+        over by police \n\t i. You have the right to remain silent. If you wish to exercise this right,
+        say so out loud. \n\t ii. If arrested, you have the right to a government-appointed lawyer if
+        unable to afford one of your own and the right to make a local phone call. \n\t iii. If police
+        are at your door, they may not enter without a warrant signed by a judicial officer that lists
+        your address or has your name on it. \n 3. Voting in Massachusetts \n\t i. Individuals must be at
+        least 18 years of age, a U.S. citizen, meet state’s residency requirements, and registered to
+        vote by state’s voter registration deadline in order to vote. \n\t ii. Individuals must be a
+        resident of the state - the amount of time you have been a resident does not matter \n\t iii.
+        Registration deadline is 20 days before the election - voters can register online, mail, or
+        in person at a registration office or the RMV. \n\t iv. Form of identification is required,
+        acceptable forms: \n\t\t a. Valid driver’s license \n\t\t b. State issued identification card
+        \n\t\t c. Current utility bill \n\t\t d. Bank statement \n\t\t e. Paystub \n\t\t f. Government-issued check
+        \n\t\t g. Other government document that has voter’s name and address \n\t v. Automatic registration -
+        MA automatically registers eligible individuals through the DMV, division of medical assistance,
+        health insurance connector authority, and other agencies that collect reliable citizenship information
+        \n\t vi. Online registration - Individuals can visit <a href="https://www.sec.state.ma.us/ovr/">https://www.sec.state.ma.us/ovr/</a>
+        to register online
+        \n 4. Marriage \n\t i. Same sex marriage is legal in all 50 states. \n\t ii. To obtain a marriage
+        license, an individual must be at least 18 years of age. Parental consent is required for individuals
+        under the age of 18. \n\t iii. Marrying a relative is illegal.
 
     </string>
     <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by

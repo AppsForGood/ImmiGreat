@@ -47,6 +47,9 @@ public class TextPageActivity extends AppCompatActivity {
             if (subHeadingText.equals(getResources().getString(R.string.lawsEducationHeadingStr))) {
                 return new LawsEducationFragment();
             }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsKnowYourRightsHeadingStr))) {
+                return new LawsKnowYourRightsFragment();
+            }
         }
         if(headingText.equals(getResources().getString(R.string.lawsDrivingHeadingStr))) {
             if(subHeadingText.equals(getResources().getString(R.string.lawsDrivingApplyingLicenseHeadingStr))){
