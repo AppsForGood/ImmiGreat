@@ -18,6 +18,7 @@
     <string name="lawsDrivingForeignPolicyHeadingStr">Foreign Policy</string>
     <string name="lawsDrivingCellPhoneHeadingStr">Cell Phone Usage</string>
     <string name="lawsDrivingJOLHeadingStr">Junior Operator License Requirements</string>
+    <string name="lawsKnowYourRightsHeadingStr">Know Your Rights</string>
     <string name="lawsDiscriminationHeadingStr">Antidiscrimination</string>
     <string name="lawsHealthcareHeadingStr">Healthcare</string>
     <string name="lawsHealthcarePageNewArrivalsStr">What do I do first?</string>
@@ -67,7 +68,7 @@
         \n\t\t vi. Financial related document \n\t\t\t Ex) Bank statements, SSA statement, school-issued
         documents, insurance related documents \n 2. Real ID vs Standard ID \n\t a. From Oct 2020, a Real ID can
         be used to fly within the United States or enter federal buildings \n 3. Can start application
-        online or start application at the RMV - <href>https://atlas-myrmv.massdot.state.ma.us/myrmv/_/</href>
+        online or start application at the RMV - <a href="https://atlas-myrmv.massdot.state.ma.us/myrmv/_/">https://atlas-myrmv.massdot.state.ma.us/myrmv/_/</a>
     </string>
     <string name="lawsDrivingForeignPolicyPageContentStr">1. Foreign-licensed drivers from another country
         that meet certain requirements* may operate a validly registered motor vehicle in Massachusetts
@@ -92,7 +93,11 @@
         first 6 months unless accompanied by a licensed driver who is at least 21 years old. \n 7. Anyone obtaining
         a Junior Operator License is prohibited from driving between 12:30 a.m. and 5 a.m. unless accompanied
         by a parent or legal guardian.
- </string>
+    </string>
+    <string name="lawsKnowYourRightsContentStr"> 1. Individuals have freedom of speech, freedom of religion, freedom of assembly, freedom of the press, and the right to petition.
+
+
+    </string>
     <string name="lawsDrivingCellPhonePageContentStr">In Massachusetts, hand-held cell phone use by
         drivers is banned. If drivers want to talk on the phone while operating a motor vehicle they
         are required to use Bluetooth or another hands-free technology tool.</string>
@@ -107,6 +112,7 @@
         non-citizen either constitutes a public charge or is likely to do so, they will lose their
         eligibility to become a lawful citizen.
     </string>
+
 
     <string name="transportationMenuOverviewStr">The MBTA (Massachusetts Bay Transportation
         Authority) is the association which is responsible for a collection of public transportation
