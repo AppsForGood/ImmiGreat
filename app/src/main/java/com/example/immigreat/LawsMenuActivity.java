@@ -65,8 +65,9 @@ public class LawsMenuActivity extends AppCompatActivity {
     }
 
     public void performStartPublicChargePage(View v) {
-        Intent intent = new Intent(this, LawsPublicChargeActivity.class);
-        startActivity(intent);
+        String subHeading = getResources().getString(R.string.lawsPublicChargeHeadingStr);
+        String heading = getResources().getString(R.string.lawsHeadingStr);
+        performStartTextPage(v, heading, subHeading);
     }
 
     public void performStartKnowYourRightsPage(View v) {

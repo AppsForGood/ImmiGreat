@@ -65,6 +65,11 @@ public class LawsHealthcareSpecialConcernsFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_laws_healthcare_special_concerns, container, false);
     }
 
+    /**
+     * Method used to make the href links in the designated textview elements in the connected xml file clickable
+     * @param view
+     * @param savedInstanceState
+     */
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         TextView naContent1 = (TextView) getView().findViewById(R.id.healthcareSpecialConcernContent);
         naContent1.setMovementMethod(LinkMovementMethod.getInstance());

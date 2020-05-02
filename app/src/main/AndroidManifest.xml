@@ -12,7 +12,6 @@
         <activity android:name=".TransportationStayingLocalSubwayActivity"></activity>
         <activity android:name=".TransportationGoingFarActivity" />
         <activity android:name=".TransportationStayingLocalActivity" />
-        <activity android:name=".LawsPublicChargeActivity" />
         <activity android:name=".LawsHealthcareActivity" />
         <activity android:name=".LawsDrivingActivity" />
         <activity android:name=".TransportationMenuActivity" />

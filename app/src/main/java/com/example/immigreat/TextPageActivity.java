@@ -42,6 +42,12 @@ public class TextPageActivity extends AppCompatActivity {
         ft.commit();
     }
 
+    /**
+     * The method used to display the correct fragment based on the
+     * @param headingText the category which the information is stored under
+     * @param subHeadingText the specific identifier for the information being displayed on the page
+     * @return
+     */
     Fragment getContentFragment(String headingText, String subHeadingText) {
         if(headingText.equals(getResources().getString(R.string.lawsHeadingStr))) {
             if (subHeadingText.equals(getResources().getString(R.string.lawsEducationHeadingStr))) {
@@ -52,6 +58,9 @@ public class TextPageActivity extends AppCompatActivity {
             }
             else if(subHeadingText.equals(getResources().getString(R.string.lawsDiscriminationHeadingStr))) {
                 return new LawsDiscriminationFragment();
+            }
+            else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
+                return new LawsPublicChargeFragment();
             }
         }
         if(headingText.equals(getResources().getString(R.string.lawsDrivingHeadingStr))) {
@@ -77,14 +86,6 @@ public class TextPageActivity extends AppCompatActivity {
             }
             else if(subHeadingText.equals(getResources().getString(R.string.lawsHealthcarePageFactsheetsStr))) {
                 return new LawsHealthcareFactsheetsFragment();
-            }
-        }
-        if(headingText.equals(getResources().getString(R.string.lawsPublicChargeHeadingStr))) {
-            if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargePageOtherInformationStr))) {
-                return new LawsPublicChargeOtherInformationFragment();
-            }
-            else if(subHeadingText.equals(getResources().getString(R.string.lawsPublicChargePageFactsheetsStr))) {
-                return new LawsPublicChargeFactsheetsFragment();
             }
         }
         if(headingText.equals(getResources().getString(R.string.transportationHeadingStr))) {
