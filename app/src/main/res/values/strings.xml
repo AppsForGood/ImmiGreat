@@ -8,7 +8,7 @@
     <!--Big buttons on main menu-->
     <string name="menuButton1Str">Public Transportation</string>
     <string name="menuButton2Str">Laws</string>
-    <string name="menuButton3Str">Something???</string>
+    <string name="menuButton3Str">Healthcare</string>
 
     <!--Headings-->
     <string name="lawsHeadingStr">Laws</string>

@@ -20,7 +20,7 @@
             android:text="@string/lawsHeadingStr"
             android:textAlignment="center"
             android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -30,13 +30,13 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="?android:attr/listDivider"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textPageHeading" />
 
         <Button
-            android:id="@+id/lawsEducationHeading"
+            android:id="@+id/lawsEducationButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartEducationPage"
@@ -47,28 +47,21 @@
             app:layout_constraintTop_toBottomOf="@+id/textPageHeading" />
 
         <Button
-            android:id="@+id/lawsDrivingHeading"
+            android:id="@+id/lawsDrivingButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartDrivingPage"
             android:text="@string/lawsDrivingHeadingStr" />
 
         <Button
-            android:id="@+id/lawsDiscriminationHeading"
+            android:id="@+id/lawsDiscriminationButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartAntidiscriminationPage"
             android:text="@string/lawsDiscriminationHeadingStr" />
 
         <Button
-            android:id="@+id/LawsHealtcareHeading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartHealthcarePage"
-            android:text="@string/lawsHealthcareHeadingStr" />
-
-        <Button
-            android:id="@+id/lawsPublicChargeHeading"
+            android:id="@+id/lawsPublicChargeButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartPublicChargePage"

@@ -21,7 +21,7 @@
             android:layout_marginBottom="5dp"
             android:textAlignment="center"
             android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="?android:attr/listDivider"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
@@ -44,7 +44,7 @@
             android:layout_marginBottom="5dp"
             android:textAlignment="center"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationHeading"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

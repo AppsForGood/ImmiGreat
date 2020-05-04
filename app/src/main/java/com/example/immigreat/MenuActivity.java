@@ -28,4 +28,10 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TransportationMenuActivity.class);
         startActivity(intent);
     }
+
+    public void performStartHealthcareMenu(View v) {
+        Intent intent = new Intent(this, LawsHealthcareActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -16,7 +16,7 @@
             android:layout_height="10dp" />
 
         <Button
-            android:id="@+id/menuButton1"
+            android:id="@+id/publicTransportationMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:onClick="performStartTransportationMenu"
@@ -27,7 +27,7 @@
             android:layout_height="10dp" />
 
         <Button
-            android:id="@+id/menuButton2"
+            android:id="@+id/lawsMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:onClick="performStartLawsMenu"
@@ -38,9 +38,10 @@
             android:layout_height="10dp" />
 
         <Button
-            android:id="@+id/menuButton3"
+            android:id="@+id/healthcareMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:onClick="performStartHealthcareMenu"
             android:text="@string/menuButton3Str" />
     </LinearLayout>
 
