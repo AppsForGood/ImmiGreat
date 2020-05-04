@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- regular -->
+    <font
+        app:font="@font/arvo_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400"/>
+
+    <!-- italic -->
+    <font
+        app:font="@font/arvo_italic"
+        app:fontStyle="italic"
+        app:fontWeight="400"/>
+
+    <!-- bold -->
+    <font
+        app:font="@font/arvo_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700"/>
+
+    <!-- bold italic -->
+    <font
+        app:font="@font/arvo_bolditalic"
+        app:fontStyle="italic"
+        app:fontWeight="700"/>
+
+
+</font-family>
