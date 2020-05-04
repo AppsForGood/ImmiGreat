@@ -247,6 +247,45 @@
         area. For a general guide on using the subway, click
         <a href="https://www.mbta.com/guides/subway-guide">here.</a>
         For more specific information see below:</string>
+    <string name="transportationStayingLocalSubwaySchedulesContent"> In general, the subway trains
+        run every day from 5am to 1am, with more frequent trips during general commute times
+        (Weekdays 6:30-9am and 3:30-6:30pm). For more information on where the subway stations are
+        as well a a complete schedule and map, click <a href="https://www.mbta.com/schedules/subway">
+            here</a>.
+    </string>
+    <string name="transportationStayingLocalSubwayFaresContent">The are a variety of ways that the
+        fees for using the T can be paid:\n-One Way Fare: Pay one price for a trip from location to
+        destination, even if you have to switch lines during the trip. <b>$2.90</b>\n-Charlie Card:
+        A rechargeable card for paying for one way fares. Using the Charlie Card reduces the price
+        of the one way fare from $2.90 to <b>$2.40</b>\n-Daily/Weekly/Monthly LinkPass: If you plan
+        on using the T many times in a day, month, or week, you can purchase a LinkPass, which
+        allows for unlimited travel for the designated time period. Price varies based on how long
+        the ticket is valid for \n\n For the complete information about fares including where and
+        when tickets can be purchased, click <a href="https://www.mbta.com/fares/subway-fares">here</a>.
+    </string>
+    <string name="transportationStayingLocalSubwayEtiquetteContent">There are a variety of dos and
+        don’ts that ought to be followed while using the T. Some of these include:\n-Let passengers
+        exit before trying to enter\n-Only take up one seat\n-Place all personal items, including
+        backpacks, securely on the floor\n-Take notice of the differences between what is allowed
+        during rush hour and off peak times. \n\n For a complete list of T etiquette, click
+        <a href="https://www.mbta.com/rider-etiquette">here</a>
+    </string>
+    <string name="transportationStayingLocalSubwayAccessibilityContent">If mobility is a concern,
+        there are some measures in place to try to assist you with that. The majority of the
+        underground T stops as well as some of the above ground trolly stops are handicap accessible
+        to those using wheelchairs. In addition the MBTA has a
+        <a href="https://www.mbta.com/trip-planner">trip planner</a>that you can use in order to
+        plan an accessible trip. For further information click
+        <a href="https://mbta.com/accessibility/trip-planning">here</a>
+    </string>
+    <string name="transportationStayingLocalSubwayLanguageServicesContent">Riders should be able to
+        use the T regardless of their ability to understand English. Translation and interpretation
+        measures have been put into place to ensure that this is possible. For information click
+        <a href="https://www.mbta.com/language-services">here</a>. In addition, you can call
+        Customer Support at <a href="tel:+16172223200">(617)222-3200</a>. They have access to
+        interpretation services in over 160 languages, and can provide translations of web pages,
+        documents, brochures and more.
+    </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

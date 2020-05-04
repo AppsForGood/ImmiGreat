@@ -2,11 +2,14 @@ package com.example.immigreat;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -60,5 +63,15 @@ public class TransportationStayingLocalSubwayFaresFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_transportation_staying_local_subway_fares, container, false);
+    }
+
+    /**
+     * Method used to make the href links in the designated textview elements in the connected xml file clickable
+     * @param view
+     * @param savedInstanceState
+     */
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        TextView fsContent = (TextView) getView().findViewById(R.id.transportationStayingLocalSubwayFares);
+        fsContent.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
