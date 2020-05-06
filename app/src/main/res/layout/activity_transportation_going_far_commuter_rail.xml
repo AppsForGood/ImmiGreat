@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationStayingLocalSubwayActivity">
+    tools:context=".TransportationGoingFarCommuterRailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,18 +12,14 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/transportationStayingLocalSubwayPageHeading"
+            android:id="@+id/transportationGoingFarCommuterRailHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationStayingLocalSubwayStr"
+            android:text="@string/transportationGoingFarCommuterRailStr"
             android:textAlignment="center"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="24sp" />
 
         <View
             android:id="@+id/divider"
@@ -36,44 +32,44 @@
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
 
         <TextView
-            android:id="@+id/transportationStayingLocalSubwayOverview"
+            android:id="@+id/transportationGoingFarCommuterRailOverview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/transportationStayingLocalSubwayOverviewStr" />
+            android:text="@string/transportationGoingFarCommuterRailOverviewStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalSubwaySchedules"
+            android:id="@+id/transportationGoingFarCommuterRailSchedules"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartSchedulesPage"
-            android:text="@string/transportationStayingLocalSubwaySchedulesStr" />
+            android:text="@string/transportationGoingFarCommuterRailSchedulesStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalSubwayjFares"
+            android:id="@+id/transportationGoingFarCommuterRailFaresContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartFaresPage"
-            android:text="@string/transportationStayingLocalSubwayFaresStr" />
+            android:text="@string/transportationGoingFarCommuterRailFaresStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalSubwayEtiquette"
+            android:id="@+id/transportationGoingFarCommuterRailNavigatingCommuterRailStations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartEtiquettePage"
-            android:text="@string/transportationStayingLocalSubwayEtiquetteStr" />
+            android:onClick="performStartNavigatingCommuterRailStationsPage"
+            android:text="@string/transportationGoingFarCommuterRailNavigatingCommuterRailStationsStr" />
 
         <Button
-            android:id="@+id/transportationStayingLocalSubwayAccessibility"
+            android:id="@+id/transportationGoingFarCommuterRailOntheTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartOntheTrainPage"
+            android:text="@string/transportationGoingFarCommuterRailOntheTrainStr" />
+
+        <Button
+            android:id="@+id/transportationGoingFarCommuterRailAccessibility"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="performStartAccessibilityPage"
-            android:text="@string/transportationStayingLocalSubwayAccessibilityStr" />
-
-        <Button
-            android:id="@+id/transportationStayingLocalSubwayLanguageServices"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="performStartLanguageServicesPage"
-            android:text="@string/transportationStayingLocalSubwayLanguageServicesStr" />
+            android:text="@string/transportationGoingFarCommuterRailAccessibilityStr" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,9 +39,21 @@
     <string name="transportationStayingLocalSubwayFaresStr">Fares</string>
     <string name="transportationStayingLocalSubwayEtiquetteStr">Etiquette</string>
     <string name="transportationStayingLocalSubwayAccessibilityStr">Accessibility</string>
-    <string name="transportationStayingLocalSubwayLanguageServicesStr">Language services</string>
-    <string name="transportationStayingLocalBusStr">Bus routes</string>
-    <string name="transportationStayingLocalFerryStr">Ferry routes</string>
+    <string name="transportationStayingLocalSubwayLanguageServicesStr">Language Services</string>
+    <string name="transportationStayingLocalBusStr">Bus Routes</string>
+    <string name="transportationStayingLocalFerryStr">Ferry Routes</string>
+    <string name="transportationStayingLocalFerrySchedulesStr">Schedules</string>
+    <string name="transportationStayingLocalFerryFaresStr">Fares</string>
+    <string name="transportationStayingLocalFerryNavigatingFerryDocksStr">Navigating Ferry Docks</string>
+    <string name="transportationStayingLocalFerryDuringtheTripStr">During the Trip</string>
+    <string name="transportationGoingFarCommuterRailStr">Commuter Rail</string>
+    <string name="transportationGoingFarCommuterRailSchedulesStr">Schedules and Routes</string>
+    <string name="transportationGoingFarCommuterRailFaresStr">Fares</string>
+    <string name="transportationGoingFarCommuterRailNavigatingCommuterRailStationsStr">Navigating Commuter Rail Stations</string>
+    <string name="transportationGoingFarCommuterRailOntheTrainStr">On the Train</string>
+    <string name="transportationGoingFarCommuterRailAccessibilityStr">Accessibility</string>
+    <string name="transportationGoingFarBusRoutesStr">Bus Routes</string>
+
 
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
@@ -286,6 +298,102 @@
         interpretation services in over 160 languages, and can provide translations of web pages,
         documents, brochures and more.
     </string>
+
+    <string name="transportationStayingLocalFerrySchedulesContent">In general, ferry service is available
+        from 6am to 11pm throughout the week, however the exact schedule changes depending on the
+        season. Ferries are most frequent during peak travel times, weekdays in the morning and
+        afternoon. For full schedule click <a href="https://www.mbta.com/schedules/ferry">here</a>.
+    </string>
+    <string name="transportationStayingLocalFerryFaresContent">The are a variety of ways that the fees for
+        using the ferry can be paid:\n-Ferry One-Way: <b>$3.70 - $9.75</b> (price varies based on
+        the route taken)\n-Unlimited use Monthly Pass: <b>$90.00 - $329.00</b>\n\nVisit
+        <a href="https://www.mbta.com/fares/ferry">here</a> to  enter specific locations and get a
+        price for the trip.\n\n Ferry tickets can be purchased with the app mTicket, at Fare Vending
+        Machines, Ticket Booths, and online at
+        <a hrerf="https://commerce.mbta.com/Passes/">the MBTA website</a>.
+    </string>
+    <string name="transportationStayingLocalFerryDocksContent">Every MBTA ferry terminal is marked with
+        a T sign and with its MBTA identification name (Glory, Champion, Lightning, Flying Cloud, Rita,
+        and Rookie). Parking varies from dock to dock. If you need assistance, MBTA staff may be
+        available at terminals and docks or you can call Customer Support at
+        <a href="tel:+16172223200">(617)222-3200</a>.
+    </string>
+    <string name="transportationStayingLocalFerryDurringtheTripHeading1">Wifi</string>
+    <string name="transportationStayingLocalFerryDurringtheTripContent1">Free WiFi is available on
+        some of the Hingham/Hull ferries but is unavailable on the Charlestown ferry.
+    </string>
+    <string name="transportationStayingLocalFerryDurringtheTripHeading2">Food and Beverages</string>
+    <string name="transportationStayingLocalFerryDurringtheTripContent2">Snacks and beverages
+        (alcoholic and non-alcoholic drinks) are available on these ferries. Both cash and credit
+        are accepted.
+    </string>
+
+    <string name="transportationGoingFarCommuterRailOverviewStr">The commuter rail offers easy
+        connections between Boston and surrounding communities
+    </string>
+    <string name="transportationGoingFarCommuterRailSchedulesContent">MBTA Commuter Rail connects
+        communities in eastern Massachusetts and Rhode Island to downtown Boston, with 137 stops
+        throughout the region. There are 12 routes that run 7 days a week. Special service to
+        Gillette Stadium from Boston and Providence for sporting events and concerts is included. To
+        see all of the Commuter Rail routes click
+        <a href="https://cdn.mbta.com/sites/default/files/maps/2019-09-18-commuter-rail-map-v34.pdf">here</a>.
+        \n\nEvery Commuter Rail route runs on its own set timetable, but in general service begins
+        at 5 AM and ends at 1 AM at many stops. Service is more frequent during peak travel times:
+        Monday through Friday, 7-9 AM and 4-7 PM. To see the full Commuter Rail schedule, click
+        <a href="https://www.mbta.com/schedules/commuter-rail">here</a>.
+    </string>
+    <string name="transportationGoingFarCommuterRailFaresContent">As with most MBTA transportation,
+        there are a variety of ways that the fee required to use the service can be paid:\n-One-way
+        or round-trip tickets are recommended if you do not use the Commuter Rail frequently. One
+        way tickets cost <b>$2.40 - $13.25</b> (price varies on how far you are traveling) and there
+        is no discount for purchasing round-trip tickets.\n10-ride passes are recommended if you
+        plan on using the Commuter Rail occasionally over the course of a couple weeks/n-Monthly
+        passes are recommended for daily commuters and are valid for unlimited trips during 1
+        calendar month.\n\nTickets can be purchased at a variety of different locations, including:
+        \n-On-site fare vending machines\n-Ticket windows\n-Some retail sales Locations
+        \n-Occasionally, on board the train (although an extra fee may be required, and this service
+        is not always available).
+    </string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsHeading1">Parking</string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsContent1">Some Commuter Rail
+        stations have parking. To check if a station has parking, click
+        <a href="https://www.mbta.com/stops/commuter-rail">here</a>; all stations marked with a “P”
+        have available parking.
+    </string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsHeading2">Boarding the Train</string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsContent2">At single-platform
+        stations, there is only one location to get on the train. At multiple-platform stations,
+        platforms will be numbered or lettered and train details will be posted on digital signs
+        several minutes before arrival. At large stations, there will be a departure board in the
+        main terminal with every train’s platform number, however hese may not be available until a
+        few minutes before the train arrives.</string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsHeading3">Restrooms</string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsContent3">Large stations have
+        public restrooms but not all stations have public restrooms. Restrooms are available on the
+        Commuter Rail trains themselves; they are located at the ends of some cars.
+    </string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsHeading4">Need Assistance?</string>
+    <string name="transportationGoingFarCommuterRailNavigatingStationsContent4">If assistance is
+        needed, at North, South, and Back Bay stations, staff are available from 5:30 AM - 12 AM
+        Monday through Friday and 7 AM - 11 PM on weekends and holidays. At other stations staff
+        members may be available on a limited basis. Call Customer Support at <a href="tel:+16172223200">(617)222-3200</a>
+        if assistance is needed.
+    </string>
+    <string name="transportationGoingFarCommuterRailOntheTrainContent">Some general notes about
+        riding the Commuter Rail:\n-Free WiFi is available on some Commuter Rail trains, look for
+        the WiFi logos in enabled cars.\n-During peak travel times, (Mon-Fri, 7-9 AM and 4-7 PM),
+        the car that is closest to the engine is a designated “Quiet Car”. Customers in this car are
+        asked to avoid loud conversations, talking on their phones, and use headphones to listen to
+        music or watch videos.\n-Alcoholic drinks are <b>not</b> allowed on the Commuter Rail, but
+        non-alcoholic drinks are.\n-Bikes are allowed on the Commuter Rail <b>during off-peak travel
+            times only</b>.\n-On train restrooms are located at the ends of some cars.
+    </string>
+    <string name="transportationGoingFarCommuterRailAccessibilityContent">Most Commuter Rail stations are
+        accessible to people with disabilities. To check if a particular station is handicap
+        accessible, check <a href="https://www.mbta.com/stops/commuter-rail">here</a>; the stations
+        marked with a wheelchair symbol are accessible to individuals with disabilities.\n\n
+        Individuals with disabilities and seniors are eligible to travel on the Commuter Rail for
+        half the price of a standard one-way fare.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

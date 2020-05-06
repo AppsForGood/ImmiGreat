@@ -110,6 +110,37 @@ public class TextPageActivity extends AppCompatActivity {
                 return new TransportationStayingLocalSubwayLanguageServicesFragment();
             }
         }
+        if(headingText.equals(getResources().getString(R.string.transportationStayingLocalFerryStr))){
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalFerrySchedulesStr))) {
+                return new TransportationStayingLocalFerrySchedulesFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalFerryFaresStr))){
+                return new TransportationStayingLocalFerryFaresFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalFerryNavigatingFerryDocksStr))){
+                return new TransportationStayingLocalFerryNavigatingFerryDocksFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalFerryDuringtheTripStr))){
+                return new TransportationStayingLocalFerryDuringtheTripFragment();
+            }
+        }
+        if(headingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailStr))){
+            if(subHeadingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailSchedulesStr))){
+                return new TransportationGoingFarCommuterRailScheduleFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailFaresStr))){
+                return new TransportationGoingFarCommuterRailFaresFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailNavigatingCommuterRailStationsStr))){
+                return new TransportationGoingFarCommuterRailNavigatingCommuterRailStationsFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailOntheTrainStr))){
+                return new TransportationGoingFarCommuterRailOntheTrainFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationGoingFarCommuterRailAccessibilityStr))){
+                return new TransportationGoingFarCommuterRailAccessibilityFragment();
+            }
+        }
         return new Error404Fragment();
     }
 

@@ -22,20 +22,31 @@ public class TransportationStayingLocalActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * Allows the designated button to open the Subway activity
+     * @param v
+     */
     public void performStartSubwayPage(View v) {
         Intent intent = new Intent(this, TransportationStayingLocalSubwayActivity.class);
         startActivity(intent);
     }
 
+    /**
+     * Allows the designated button to open the Bus activity
+     * @param v
+     */
     public void performStartBusPage(View v) {
         String subHeading = getResources().getString(R.string.transportationStayingLocalBusStr);
         String heading = getResources().getString(R.string.transportationStayingLocalHeadingStr);
         performStartTextPage(v, heading, subHeading);
     }
 
+    /**
+     * Allows the designated button to open the Ferry activity
+     * @param v
+     */
     public void performStartFerryPage(View v) {
-        String subHeading = getResources().getString(R.string.transportationStayingLocalFerryStr);
-        String heading = getResources().getString(R.string.transportationStayingLocalHeadingStr);
-        performStartTextPage(v, heading, subHeading);
+        Intent intent = new Intent(this, TransportationStayingLocalFerryActivity.class);
+        startActivity(intent);
     }
 }

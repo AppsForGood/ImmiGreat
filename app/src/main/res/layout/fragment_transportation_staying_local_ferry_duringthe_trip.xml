@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransportationStayingLocalFerryDuringtheTripFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/transportationStayingLocalFerryDurringtheTripHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationStayingLocalFerryDurringtheTripHeading1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/transportationStayingLocalFerryDurringtheTripContent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationStayingLocalFerryDurringtheTripContent1" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
+
+        <TextView
+            android:id="@+id/transportationStayingLocalFerryDurringtheTripHeading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationStayingLocalFerryDurringtheTripHeading2"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/transportationStayingLocalFerryDurringtheTripContent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationStayingLocalFerryDurringtheTripContent2" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -34,5 +34,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
+
+        <Button
+            android:id="@+id/transportatiobGoingFarCommuterRailHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartCommuterRailPage"
+            android:text="@string/transportationGoingFarCommuterRailStr" />
+
+        <Button
+            android:id="@+id/transportatiobGoingFarBusRoutelHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationGoingFarBusRoutesStr" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
