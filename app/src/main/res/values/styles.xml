@@ -15,6 +15,7 @@
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textColorLink">@color/linkcolor</item>
         <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
     </style>
 
     <style name="HeadingStyle" parent="android:Widget.TextView">
