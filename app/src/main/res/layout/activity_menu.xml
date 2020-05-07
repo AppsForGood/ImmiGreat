@@ -11,36 +11,37 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
         <Button
             android:id="@+id/publicTransportationMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_weight="10"
             android:onClick="performStartTransportationMenu"
             android:text="@string/menuButton1Str" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="10dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/lawsMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_weight="10"
             android:onClick="performStartLawsMenu"
             android:text="@string/menuButton2Str" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="10dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/healthcareMenuButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_weight="10"
             android:onClick="performStartHealthcareMenu"
             android:text="@string/menuButton3Str" />
     </LinearLayout>
