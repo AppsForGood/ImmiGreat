@@ -51,12 +51,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <FrameLayout
-            android:id="@+id/textPageContentFragmentPlace"
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </FrameLayout>
+            <FrameLayout
+                android:id="@+id/textPageContentFragmentPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+        </ScrollView>
 
         <TextView
             android:id="@+id/textPageContent"
@@ -64,4 +69,5 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
