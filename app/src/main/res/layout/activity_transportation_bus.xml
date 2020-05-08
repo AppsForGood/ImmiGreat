@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransportationGoingFarActivity">
+    tools:context=".TransportationBusActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,13 +12,13 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/lawsPublicChargePageHeading4"
+            android:id="@+id/transportationBusHeading"
             style="@style/HeadingStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/transportationGoingFarHeadingStr"
+            android:text="@string/transportationBusStr"
             android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
@@ -26,29 +26,25 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <View
-            android:id="@+id/divider"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?android:attr/listDivider"
-            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
-
         <Button
-            android:id="@+id/transportatiobGoingFarCommuterRailHeading"
+            android:id="@+id/transportationBusSchedules"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartCommuterRailPage"
-            android:text="@string/transportationGoingFarCommuterRailStr" />
+            android:onClick="performStartSchedulePage"
+            android:text="@string/transportationBusScheduleStr" />
 
         <Button
-            android:id="@+id/transportatiobGoingFarBusRoutelHeading"
+            android:id="@+id/transportationBusFares"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="performStartBusPage"
-            android:text="@string/transportationBusStr" />
+            android:onClick="performStartFaresPage"
+            android:text="@string/transportationBusFaresStr" />
 
+        <Button
+            android:id="@+id/transportationBusEtiquette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="performStartEtiquettePage"
+            android:text="@string/transportationBusEtiquetteStr" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,7 +40,10 @@
     <string name="transportationStayingLocalSubwayEtiquetteStr">Etiquette</string>
     <string name="transportationStayingLocalSubwayAccessibilityStr">Accessibility</string>
     <string name="transportationStayingLocalSubwayLanguageServicesStr">Language Services</string>
-    <string name="transportationStayingLocalBusStr">Bus Routes</string>
+    <string name="transportationBusStr">Bus Routes</string>
+    <string name="transportationBusScheduleStr">Schedules and Routes</string>
+    <string name="transportationBusFaresStr">Fares</string>
+    <string name="transportationBusEtiquetteStr">Etiquette</string>
     <string name="transportationStayingLocalFerryStr">Ferry Routes</string>
     <string name="transportationStayingLocalFerrySchedulesStr">Schedules</string>
     <string name="transportationStayingLocalFerryFaresStr">Fares</string>
@@ -52,7 +55,7 @@
     <string name="transportationGoingFarCommuterRailNavigatingCommuterRailStationsStr">Navigating Commuter Rail Stations</string>
     <string name="transportationGoingFarCommuterRailOntheTrainStr">On the Train</string>
     <string name="transportationGoingFarCommuterRailAccessibilityStr">Accessibility</string>
-    <string name="transportationGoingFarBusRoutesStr">Bus Routes</string>
+    <string name="transportationAccessibilityTheRIDEStr">The RIDE</string>
 
 
     <!--Content strings-->
@@ -286,7 +289,7 @@
         there are some measures in place to try to assist you with that. The majority of the
         underground T stops as well as some of the above ground trolly stops are handicap accessible
         to those using wheelchairs. In addition the MBTA has a
-        <a href="https://www.mbta.com/trip-planner">trip planner</a>that you can use in order to
+        <a href="https://www.mbta.com/trip-planner">trip planner</a> that you can use in order to
         plan an accessible trip. For further information click
         <a href="https://mbta.com/accessibility/trip-planning">here</a>
     </string>
@@ -394,6 +397,79 @@
         marked with a wheelchair symbol are accessible to individuals with disabilities.\n\n
         Individuals with disabilities and seniors are eligible to travel on the Commuter Rail for
         half the price of a standard one-way fare.</string>
+
+    <string name="transportationBusScheduleContent">MBTA buses connect neighborhoods in Greater Boston with
+        each other and offer service to many surrounding cities and towns. The service area includes
+        more than 170 routes that run between 5-7 days a week. Throughout the region there are 8,000
+        stops. To see a full system map click
+        <a href="https://cdn.mbta.com/sites/default/files/maps/2020-03-15-mbta-system-map-full.pdf">here</a>.
+        \n\nEvery bus route has its own schedule with a majority of the routes running between 5 AM
+        and 1 AM. There are some routes that run between 1 AM and 5 AM. To see all bus schedules go
+        <a href="https://www.mbta.com/schedules/bus">here</a>\n\nLocal Buses make stops within
+        Boston while Outer Express Buses travel further out connecting some cities with the Boston
+        area.
+    </string>
+    <string name="transportationBusFaresContent">-Local bus service one-way is <b>$1.70</b> with a
+        CharlieCard and <b>$2.00</b> with a CharlieTicker or cash. To learn more about CharlieCards and
+        CharlieTickets, click <a href="https://www.mbta.com/fares/charliecard">here</a>\n-Inner
+        Express service one-way is <b>$4.25</b> with a CharlieCard and <b>$5.25</b> with a
+        2CharlieTicket or cash.\n-Outer Express service one-way is <b>$5.25</b> with a CharlieCard
+        and <b>$7.00</b> with a CharlieTicket or cash.\n-A 1-Day Pass is <b>$12.75</b> and includes
+        unlimited travel for 24 hours on Local Buses and the subway.\n-A 2-Day Pass is <b>$22.50</b>
+        and includes unlimited travel for a week on Local Buses and the subway.\n-A Local Bus
+        Monthly Pass costs <b>$55.00</b>.\n-A Monthly LinkPass (travel on Local Buses and subway)
+        costs <b>$90.00</b>.\n-An Outer Express Bus Monthly Pass costs <b>$168.00</b>\n\nTickets can
+        be bought at Fare Vending Machines, some Retail Sales locations, on board the bus, or online
+        <a href="https://charliecard.mbta.com/CharlieCardWebProgram/pages/charlieCardCenter.jsf">here</a>.
+    </string>
+    <string name="transportationBusEtiquetteContent">There are a few general rules that all riders
+        should follow while using MBTA buses:\n-Let passengers exit the bus before trying to board
+        the bus, especially during rush hour.\n-When boarding, move all the way into the vehicle to
+        create space for the other passengers.\n-Only take up 1 seat. If you have a seat and no more
+        are available, offer your seat to seniors, pregnant women, and people with disabilities.
+        \n-Take off your backpack, and keep large personal items on the floor and out of the way.
+        \n-Service animals are allowed at all times. Non-service dogs are not allowed during peak
+        hours (Mon - Fri, 7 AM - 9 AM and 4 AM - 6:30 PM). Dogs should be on a leash and cannot take
+        up a seat as there is room to lay down under the seats. Smaller animals should be kept in
+        pet carriers.\n-All MBTA buses that are non-electric have bike racks that can hold 2
+        conventional bikes.\n-All stops and transfer points are announced automatically and
+        displayed on a screen that is at the front of the bus.\n-To request a stop press the yellow
+        or gray strips that are near the windows of the bus, or the red “Stop” buttons that are on
+        the vertical handrails.\n-In case of an emergency call 911 or the Transit Police at
+        <a href="tel:+16172221212">(617)222-1212</a>.
+    </string>
+
+    <string name="transportationAccessibilityOverview">If a user is unable to utilize the other
+        forms of MBTA transportation due to a disability, they may be eligible to utilize the
+        MBTA\'s RIDE service. Please note that in order to use the RIDE, you must be a pre-certified
+        RIDE customer.
+    </string>
+    <string name="transportationAccessibilityHeading1">Who can use the RIDE?</string>
+    <string name="transportationAccessibilityContent1">-Both people with physical disabilities as
+        well as temporary mobility impairments caused by injury may be eligible for the RIDE, as the
+        RIDE is a safety-net service, and thus eligibility is determined on the basis of inability
+        to use other forms of public transportation.\n-Both Boston area residents and visitors to
+        the Boston area can become certified RIDE users. For more information about using the RIDE
+        as a visitor, click
+        <a href="https://www.mbta.com/accessibility/the-ride/the-ride-paratransit-visitors">here</a>.
+        \n-All certified RIDE customers are allowed to bring their Personal Care Attendant (PCA) on
+        the RIDE with them free of charge. If space is available, they can also bring one guest at
+        standard RIDE rates.
+    </string>
+    <string name="transportationAccessibilityHeading2">How to apply for a RIDE certification</string>
+    <string name="transportationAccessibilityContent2">A ride certification can be obtained for
+        eligible individuals by following these 3 steps:\n-1. Call the RIDE eligibility center (TREC)
+        at <a href="tel:+16173372727">(617)337-2727</a> to set up an appointment for your
+        interview\n2. Complete an interview at the TREC where you can tell a Mobility Coordinator
+        about yourself and your circumstances which make using the RIDE a necessity.\n3. For more
+        details on how to apply for a RIDE certification, click
+        <a href="https://www.mbta.com/accessibility/the-ride/how-apply-the-ride">here</a>.
+    </string>
+    <string name="transportationAccessibilityHeading3">RIDE user policies</string>
+    <string name="transportationAccessibilityContent3">If you are a certified RIDE user, click
+        <a href="https://www.mbta.com/accessibility/the-ride/the-ride-policies">here</a> to see the
+        general rules and etiquette to follow while using the RIDE.
+    </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

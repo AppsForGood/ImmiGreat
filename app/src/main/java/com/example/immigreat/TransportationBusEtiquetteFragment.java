@@ -14,10 +14,10 @@ import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TransportationAccessibilityFragment#newInstance} factory method to
+ * Use the {@link TransportationBusEtiquetteFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TransportationAccessibilityFragment extends Fragment {
+public class TransportationBusEtiquetteFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -27,7 +27,7 @@ public class TransportationAccessibilityFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TransportationAccessibilityFragment() {
+    public TransportationBusEtiquetteFragment() {
         // Required empty public constructor
     }
 
@@ -37,11 +37,11 @@ public class TransportationAccessibilityFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TransportationAccessibilityFragment.
+     * @return A new instance of fragment transportationBusEtiquetteFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static TransportationAccessibilityFragment newInstance(String param1, String param2) {
-        TransportationAccessibilityFragment fragment = new TransportationAccessibilityFragment();
+    public static TransportationBusEtiquetteFragment newInstance(String param1, String param2) {
+        TransportationBusEtiquetteFragment fragment = new TransportationBusEtiquetteFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,15 +62,16 @@ public class TransportationAccessibilityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_transportation_accessibility, container, false);
+        return inflater.inflate(R.layout.fragment_transportation_bus_etiquette, container, false);
     }
 
+    /**
+     * Method used to make the href links in the designated textview elements in the connected xml file clickable
+     * @param view
+     * @param savedInstanceState
+     */
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        TextView content1 = (TextView) getView().findViewById(R.id.transportationAccessibilityContent1);
-        content1.setMovementMethod(LinkMovementMethod.getInstance());
-        TextView content2 = (TextView) getView().findViewById(R.id.transportationAccessibilityContent2);
-        content2.setMovementMethod(LinkMovementMethod.getInstance());
-        TextView content3 = (TextView) getView().findViewById(R.id.transportationAccessibilityContent3);
-        content3.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView content = (TextView) getView().findViewById(R.id.transportationBusEtiquette);
+        content.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

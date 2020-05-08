@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TransportationAccessibilityFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/transportationAccessibilityHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityHeading1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/transportationAccessibilityContent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityContent1" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
+
+        <TextView
+            android:id="@+id/transportationAccessibilityHeading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityHeading2"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/transportationAccessibilityContent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityContent2" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@+id/lawsEducationButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transportationMenuPageHeading" />
+
+        <TextView
+            android:id="@+id/transportationAccessibilityHeading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityHeading3"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/transportationAccessibilityContent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportationAccessibilityContent3" />
+    </LinearLayout>
 
 </FrameLayout>

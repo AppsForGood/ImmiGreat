@@ -35,8 +35,8 @@ public class TransportationMenuActivity extends AppCompatActivity {
     }
 
     public void performStartAccessibilityPage(View v) {
-        String subHeading = getResources().getString(R.string.transportationAccessibilityHeadingStr);
+        String subHeading = getResources().getString(R.string.transportationAccessibilityTheRIDEStr);
         String heading = getResources().getString(R.string.transportationHeadingStr);
-        performStartTextPage(v, subHeading, heading);
+        performStartTextPage(v, heading, subHeading);
     }
 }

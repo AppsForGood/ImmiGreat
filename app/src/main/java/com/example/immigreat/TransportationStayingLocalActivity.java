@@ -36,9 +36,8 @@ public class TransportationStayingLocalActivity extends AppCompatActivity {
      * @param v
      */
     public void performStartBusPage(View v) {
-        String subHeading = getResources().getString(R.string.transportationStayingLocalBusStr);
-        String heading = getResources().getString(R.string.transportationStayingLocalHeadingStr);
-        performStartTextPage(v, heading, subHeading);
+        Intent intent = new Intent(this, TransportationBusActivity.class);
+        startActivity(intent);
     }
 
     /**

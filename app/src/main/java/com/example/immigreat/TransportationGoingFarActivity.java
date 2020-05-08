@@ -21,4 +21,9 @@ public class TransportationGoingFarActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TransportationGoingFarCommuterRailActivity.class);
         startActivity(intent);
     }
+
+    public void performStartBusPage(View v) {
+        Intent intent = new Intent(this, TransportationBusActivity.class);
+        startActivity(intent);
+    }
 }

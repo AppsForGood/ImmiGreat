@@ -89,7 +89,7 @@ public class TextPageActivity extends AppCompatActivity {
             }
         }
         if(headingText.equals(getResources().getString(R.string.transportationHeadingStr))) {
-            if(subHeadingText.equals(getResources().getString(R.string.transportationAccessibilityHeadingStr))){
+            if(subHeadingText.equals(getResources().getString(R.string.transportationAccessibilityTheRIDEStr))){
                 return new TransportationAccessibilityFragment();
             }
         }
@@ -108,6 +108,17 @@ public class TextPageActivity extends AppCompatActivity {
             }
             if(subHeadingText.equals(getResources().getString(R.string.transportationStayingLocalSubwayLanguageServicesStr))){
                 return new TransportationStayingLocalSubwayLanguageServicesFragment();
+            }
+        }
+        if(headingText.equals(getResources().getString(R.string.transportationBusStr))){
+            if(subHeadingText.equals(getResources().getString(R.string.transportationBusScheduleStr))){
+                return new TransportationBusScheduleFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationBusFaresStr))){
+                return new TransportationBusFaresFragment();
+            }
+            if(subHeadingText.equals(getResources().getString(R.string.transportationBusEtiquetteStr))){
+                return new TransportationBusEtiquetteFragment();
             }
         }
         if(headingText.equals(getResources().getString(R.string.transportationStayingLocalFerryStr))){
