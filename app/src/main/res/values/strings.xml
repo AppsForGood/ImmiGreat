@@ -28,8 +28,6 @@
     <string name="lawsHealthcarePageSpecialConcernsStr">Specific Groups and Special Health Concerns</string>
     <string name="lawsHealthcarePageFactsheetsStr">Factsheets and Other Resources</string>
     <string name="lawsPublicChargeHeadingStr">Public Charge</string>
-    <string name="lawsPublicChargePageOtherInformationStr">General Information</string>
-    <string name="lawsPublicChargePageFactsheetsStr">Factsheets</string>
 
     <string name="transportationStayingLocalHeadingStr">Staying Local?</string>
     <string name="transportationGoingFarHeadingStr">Going Further Afield?</string>
@@ -439,11 +437,6 @@
         <a href="tel:+16172221212">(617)222-1212</a>.
     </string>
 
-    <string name="transportationAccessibilityOverview">If a user is unable to utilize the other
-        forms of MBTA transportation due to a disability, they may be eligible to utilize the
-        MBTA\'s RIDE service. Please note that in order to use the RIDE, you must be a pre-certified
-        RIDE customer.
-    </string>
     <string name="transportationAccessibilityHeading1">Who can use the RIDE?</string>
     <string name="transportationAccessibilityContent1">-Both people with physical disabilities as
         well as temporary mobility impairments caused by injury may be eligible for the RIDE, as the
@@ -472,5 +465,4 @@
     </string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
