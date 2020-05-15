@@ -90,6 +90,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * This method designates which fragment is to be written to the text page activity.
+     * It sends the content, heading, and subheading to the activity via intent.
+     * @param v
+     * @param heading the category which the information is stored under
+     * @param subHeading the specific identifier for the information being displayed on the page
+     */
+    public void performStartTextPage(View v, String heading, String subHeading) {
+        Intent intent = new Intent(this, TextPageActivity.class);
+        intent.putExtra("HEADING", heading);
+        intent.putExtra("SUBHEADING", subHeading);
+
+        startActivity(intent);
+    }
+
+    /**
      * This method starts the main menu activity.
      * @param v The current view
      * @see com.example.immigreat.MenuActivity
@@ -98,6 +113,16 @@ public class MainActivity extends AppCompatActivity {
     public void performStartMenu(View v) {
         Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
+    }
+
+    /**
+     * Allows the designated button to open the info fragment on the TextPage activity
+     * @param v
+     */
+    public void performStartInfoPage(View v) {
+        String subHeading = getResources().getString(R.string.infoButtonSubHeadingSTR);
+        String heading = getResources().getString(R.string.infoButtonHeadingSTR);
+        performStartTextPage(v, heading, subHeading);
     }
 
     Handler changeTextHandler = new Handler();

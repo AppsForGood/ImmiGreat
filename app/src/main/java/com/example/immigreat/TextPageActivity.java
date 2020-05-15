@@ -152,6 +152,11 @@ public class TextPageActivity extends AppCompatActivity {
                 return new TransportationGoingFarCommuterRailAccessibilityFragment();
             }
         }
+        if(headingText.equals(getResources().getString(R.string.infoButtonHeadingSTR))){
+            if(subHeadingText.equals(getResources().getString(R.string.infoButtonSubHeadingSTR))){
+                return new InfoFragment();
+            }
+        }
         return new Error404Fragment();
     }
 

@@ -55,6 +55,9 @@
     <string name="transportationGoingFarCommuterRailAccessibilityStr">Accessibility</string>
     <string name="transportationAccessibilityTheRIDEStr">The RIDE</string>
 
+    <string name="infoButtonHeadingSTR">Welcome to ImmiGreat!</string>
+    <string name="infoButtonSubHeadingSTR">General Information</string>
+
 
     <!--Content strings-->
     <string name="error404PageContentStr">ERROR</string>
@@ -463,6 +466,46 @@
         <a href="https://www.mbta.com/accessibility/the-ride/the-ride-policies">here</a> to see the
         general rules and etiquette to follow while using the RIDE.
     </string>
+
+    <string name="infoPageContent">Welcome to ImmiGreat! an app designed to help new arrivals to the
+        Massachusetts area.\n\n<b>Please note:</b> all of the information within this app is meant
+        to act only as a general overview of the information which is available for newcomers to
+        this area. Its purpose is to organize this information in a way that is user friendly and to
+        act as a initial look at what information you ought to familiarize yourself with. It is <b>not</b>
+        supposed to be a replacement for legal advice.
+        \n\nIn addition, all of the links which are accessible by this app are intended to be for
+        obtaining extra and more in-depth information. We do not endorse, nor are endorsed by any of
+        the third-parties represented in these links.
+        \n\nThis is the complete list of the outside sources which were used to collect information
+        for this app:
+        \n\n<b>Transportation</b>
+        \n<a href="https://www.mbta.com/">www.mbta.com</a>
+        \n\n<b>Laws</b>
+        \n<a href="https://www.justice.gov/">www.justice.gov</a>
+        \n<a href="https://malegislature.gov/">malegislature.gov</a>
+        \n<a href="https://statelaws.findlaw.com/massachusetts-law/">statelaws.findlaw.com/massachusetts-law</a>
+        \n<a href="https://pips.partners.org/">pips.partners.org</a>
+        \n<a href="https://www.mass.gov/">www.mass.gov</a>
+        \n<a href="https://atlas-myrmv.massdot.state.ma.us/myrmv/_/">atlas-myrmv.massdot.state.ma.us</a>
+        \n<a href="http://www.bu.edu/">www.bu.edu</a>
+        \n<a href="https://www.aclu.org/">www.aclu.org</a>
+        \n<a href="https://ballotpedia.org/">ballotpedia.org</a>
+        \n<a href="https://www.sec.state.ma.us/">www.sec.state.ma.us</a>
+        \n<a href="https://www.ilrc.org/">www.ilrc.org</a>
+        \n<a href="https://www.hcfama.org/">www.hcfama.org</a>
+        \n<a hreg="https://www.nilc.org/">www.nilc.org</a>
+        \n\n<b>Healthcare</b>
+        \n<a href="https://www.hcfama.org/">www.hcfama.org</a>
+        \n<a href="https://www.mahealthconnector.org/">www.mahealthconnector.org</a>
+        \n<a href="https://www.hhs.gov/">www.hhs.gov</a>
+        \n<a href="https://www.mass.gov/">www.mass.gov</a>
+        \n<a href="https://www.acf.hhs.gov/">www.acf.hhs.gov</a>
+        \n<a href="https://www.nilc.org/">www.nilc.org</a>
+        \n<a href="https://refugeeswelcomehome.org/">refugeeswelcomehome.org</a>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
